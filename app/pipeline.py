@@ -93,46 +93,66 @@ async def generate_updates(
     mode_update = _read(PROMPTS / "mode_update.md")
     topic_brief = _read(TOPICS / topic_slug / "topic_brief.md")
 
-    # Determine context: latest update synthesis, or primers if first update
+    # Determine per-provider context: each model reads its own prior report
     latest_dir = _get_latest_update_dir(topic_slug)
-    if latest_dir:
-        context_path = latest_dir / "synthesis.md"
-        if not context_path.exists():
-            # Fall back to any available report in latest dir
-            for name in ("claude.md", "gpt.md", "gemini.md"):
-                p = latest_dir / name
-                if p.exists():
-                    context_path = p
-                    break
-        context_label = f"Prior update ({latest_dir.name})"
-    else:
-        # First update — use primer synthesis
-        context_path = TOPICS / topic_slug / "primers" / "synthesis.md"
-        if not context_path.exists():
-            # Fall back to individual primers
-            for name in ("claude.md", "gpt.md", "gemini.md"):
-                p = TOPICS / topic_slug / "primers" / name
-                if p.exists():
-                    context_path = p
-                    break
-        context_label = "Baseline primer"
+    primers_dir = TOPICS / topic_slug / "primers"
 
-    if not context_path.exists():
+    def _get_provider_context(provider_name: str) -> tuple[str, str]:
+        """Return (context_text, context_label) for a specific provider."""
+        if latest_dir:
+            # Try this provider's own prior report first
+            own_report = latest_dir / f"{provider_name}.md"
+            if own_report.exists():
+                return _read(own_report), f"Prior {provider_name} update ({latest_dir.name})"
+            # Fall back to synthesis
+            synth = latest_dir / "synthesis.md"
+            if synth.exists():
+                return _read(synth), f"Prior synthesis ({latest_dir.name})"
+        # First update — use this provider's own primer
+        own_primer = primers_dir / f"{provider_name}.md"
+        if own_primer.exists():
+            return _read(own_primer), f"Baseline {provider_name} primer"
+        # Fall back to any primer
+        for name in ("synthesis.md", "claude.md", "gpt.md"):
+            p = primers_dir / name
+            if p.exists():
+                return _read(p), "Baseline primer"
         raise FileNotFoundError(
             f"No prior reports found for {topic_slug}. Run primers first."
         )
 
-    context = _read(context_path)
-    print(f"  Context: {context_label}")
-
+    # Build per-provider messages and call in parallel
     system_prompt = base_role
-    user_message = (
-        f"{mode_update}\n\n---\n\n{topic_brief}\n\n---\n\n"
-        f"Prior report for context ({context_label}):\n\n{context}"
-    )
 
-    # Call all providers
-    results = await providers.call_all(system_prompt, user_message)
+    async def _call_one(provider_name, call_fn):
+        context, label = _get_provider_context(provider_name)
+        print(f"  {provider_name}: context = {label}")
+        user_message = (
+            f"{mode_update}\n\n---\n\n{topic_brief}\n\n---\n\n"
+            f"Your prior report for context ({label}):\n\n{context}"
+        )
+        return await call_fn(system_prompt, user_message)
+
+    # Build tasks for configured providers
+    from app.config import settings
+    tasks = {}
+    if settings.anthropic_api_key:
+        tasks["claude"] = _call_one("claude", providers.call_claude)
+    if settings.openai_api_key:
+        tasks["gpt"] = _call_one("gpt", providers.call_gpt)
+    if settings.google_api_key:
+        tasks["gemini"] = _call_one("gemini", providers.call_gemini)
+
+    if not tasks:
+        raise ValueError("No AI providers configured")
+
+    raw_results = await asyncio.gather(*tasks.values(), return_exceptions=True)
+    results = {}
+    for name, result in zip(tasks.keys(), raw_results):
+        if isinstance(result, Exception):
+            print(f"  [ERROR] {name}: {result}")
+        else:
+            results[name] = result
 
     update_dir = TOPICS / topic_slug / "updates" / date_str
     for name, result in results.items():
@@ -142,10 +162,16 @@ async def generate_updates(
         print("  Skipping synthesis (need at least 2 provider results)")
         return
 
-    # Synthesize
+    # Synthesize — synthesis model gets the prior synthesis for its own continuity
     print("  Generating update synthesis...")
     synth_role = _read(PROMPTS / "synthesis_role.md")
     synth_mode = _read(PROMPTS / "synthesis_mode_update.md")
+
+    prior_synthesis = ""
+    if latest_dir and (latest_dir / "synthesis.md").exists():
+        prior_synthesis = _read(latest_dir / "synthesis.md")
+    elif (primers_dir / "synthesis.md").exists():
+        prior_synthesis = _read(primers_dir / "synthesis.md")
 
     reports_text = ""
     for name, result in results.items():
@@ -154,7 +180,7 @@ async def generate_updates(
     synth_system = f"{synth_role}\n\n---\n\n{synth_mode}"
     synth_user = (
         f"Topic brief:\n\n{topic_brief}\n\n---\n\n"
-        f"Prior synthesis for continuity:\n\n{context}\n\n---\n\n"
+        f"Prior synthesis for continuity:\n\n{prior_synthesis}\n\n---\n\n"
         f"Today's individual reports:{reports_text}"
     )
 
