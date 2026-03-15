@@ -22,13 +22,25 @@ BASE_TEMPLATE = """<!DOCTYPE html>
     <title>{{ title }} — News Analyst</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <style>
-        .report-nav { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
-        .report-nav a { padding: 0.25rem 0.75rem; border-radius: 4px; text-decoration: none; }
-        .report-nav a.active { background: var(--pico-primary-background); color: var(--pico-primary-inverse); }
-        .update-list { list-style: none; padding: 0; }
-        .update-list li { margin-bottom: 0.5rem; }
-        .provider-links { display: inline; font-size: 0.85em; }
-        .provider-links a { margin-left: 0.5rem; }
+        .report-nav { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+        .report-nav a {
+            padding: 0.3rem 0.75rem; border-radius: 4px;
+            text-decoration: none; font-size: 0.85em;
+            border: 1px solid var(--pico-muted-border-color);
+        }
+        .report-nav a.active {
+            background: var(--pico-primary-background);
+            color: var(--pico-primary-inverse);
+            border-color: var(--pico-primary-background);
+        }
+        .sidebar { font-size: 0.85em; border-left: 2px solid var(--pico-muted-border-color); padding-left: 1rem; }
+        .sidebar h4 { margin-bottom: 0.5rem; }
+        .sidebar ul { list-style: none; padding: 0; margin: 0; }
+        .sidebar li { margin-bottom: 0.25rem; }
+        .sidebar .provider-links { font-size: 0.85em; opacity: 0.7; }
+        .sidebar .provider-links a { margin-left: 0.25rem; }
+        .layout { display: grid; grid-template-columns: 1fr 220px; gap: 2rem; align-items: start; }
+        @media (max-width: 768px) { .layout { grid-template-columns: 1fr; } }
         table { font-size: 0.9em; }
         article.report { max-width: 100%; overflow-x: auto; }
     </style>
@@ -38,12 +50,7 @@ BASE_TEMPLATE = """<!DOCTYPE html>
     <ul><li><a href="{{ base }}"><strong>News Analyst</strong></a></li></ul>
 </nav>
 <main class="container">
-    <nav aria-label="breadcrumb" style="font-size:0.9em; margin-bottom:1rem;">
-        {{ breadcrumb }}
-    </nav>
-    <article class="report">
-        {{ content }}
-    </article>
+    {{ content }}
 </main>
 <footer class="container">
     <small>Built {{ build_date }}</small>
@@ -70,18 +77,16 @@ def _get_topic_title(slug: str) -> str:
 
 
 def _depth_to_base(depth: int) -> str:
-    """Return relative path prefix to site root."""
     if depth == 0:
         return "."
     return "/".join([".."] * depth)
 
 
-def _render(path: Path, title: str, content_html: str, breadcrumb: str, depth: int):
+def _render(path: Path, title: str, content_html: str, depth: int):
     path.parent.mkdir(parents=True, exist_ok=True)
     html = _template.render(
         title=title,
         content=Markup(content_html),
-        breadcrumb=Markup(breadcrumb),
         base=_depth_to_base(depth),
         build_date=date.today().isoformat(),
     )
@@ -95,6 +100,40 @@ def _provider_nav(current: str, names: list[str], path_prefix: str) -> str:
         label = "Synthesis" if name == "synthesis" else name.capitalize()
         links.append(f'<a href="{path_prefix}{name}.html"{cls}>{label}</a>')
     return '<div class="report-nav">' + "".join(links) + "</div>"
+
+
+def _build_sidebar(slug: str, title: str, update_dates: list[str], primers_dir: Path, updates_dir: Path, current_date: str | None = None) -> str:
+    """Build the right sidebar with archive links."""
+    parts = ['<aside class="sidebar">']
+
+    # Primer links
+    if primers_dir.exists() and any(primers_dir.glob("*.md")):
+        parts.append("<h4>Primer</h4><ul>")
+        if (primers_dir / "synthesis.md").exists():
+            parts.append('<li><a href="primer.html">Synthesis</a></li>')
+        for name in ("claude", "gpt"):
+            if (primers_dir / f"{name}.md").exists():
+                parts.append(f'<li><a href="primers/{name}.html">{name.capitalize()}</a></li>')
+        parts.append("</ul>")
+
+    # Update archive
+    if update_dates:
+        parts.append("<h4>Updates</h4><ul>")
+        for d in update_dates:
+            active = " <strong>&larr;</strong>" if d == current_date else ""
+            line = f'<li><a href="{d}/synthesis.html">{d}</a>{active}'
+            plinks = []
+            for name in ("claude", "gpt"):
+                if (updates_dir / d / f"{name}.md").exists():
+                    plinks.append(f'<a href="{d}/{name}.html">{name.capitalize()}</a>')
+            if plinks:
+                line += ' <span class="provider-links">' + " | ".join(plinks) + "</span>"
+            line += "</li>"
+            parts.append(line)
+        parts.append("</ul>")
+
+    parts.append("</aside>")
+    return "\n".join(parts)
 
 
 def build_site(output_dir: str = "site") -> None:
@@ -114,13 +153,22 @@ def build_site(output_dir: str = "site") -> None:
         topics.append((slug, title))
         _build_topic(slug, title)
 
-    # Build index
-    items_html = ""
-    for slug, title in topics:
-        items_html += f'<article><h3><a href="{slug}/">{title}</a></h3></article>\n'
+    # Home page — if single topic, redirect to it; if multiple, show list
+    if len(topics) == 1:
+        slug, title = topics[0]
+        # Just render the topic index as the home page too
+        redirect = f'<meta http-equiv="refresh" content="0;url={slug}/">'
+        (SITE / "index.html").write_text(
+            f'<!DOCTYPE html><html><head>{redirect}</head><body>Redirecting to <a href="{slug}/">{title}</a></body></html>',
+            encoding="utf-8",
+        )
+    else:
+        items_html = ""
+        for slug, title in topics:
+            items_html += f'<article><h3><a href="{slug}/">{title}</a></h3></article>\n'
+        index_html = f"<h1>News Analyst</h1>\n<p>AI-powered intelligence analysis.</p>\n{items_html}"
+        _render(SITE / "index.html", "Home", index_html, 0)
 
-    index_html = f"<h1>News Analyst</h1>\n<p>AI-powered intelligence analysis with multi-model comparison.</p>\n{items_html}"
-    _render(SITE / "index.html", "Home", index_html, "", 0)
     print(f"Built site with {len(topics)} topic(s) at {SITE}")
 
 
@@ -136,96 +184,70 @@ def _build_topic(slug: str, title: str):
             [d.name for d in updates_dir.iterdir() if d.is_dir()], reverse=True
         )
 
-    bc_topic = f'<a href="{_depth_to_base(1)}">Home</a> &rsaquo; {title}'
-
-    # --- Topic index page ---
-    index_parts = [f"<h1>{title}</h1>"]
-
-    # Latest synthesis link
+    # --- Topic index: render latest synthesis inline ---
+    latest_content = ""
+    latest_date = None
     if update_dates:
-        latest = update_dates[0]
-        index_parts.append(
-            f'<p><strong>Latest:</strong> <a href="{latest}/synthesis.html">{latest} Synthesis</a></p>'
-        )
+        latest_date = update_dates[0]
+        synth_path = updates_dir / latest_date / "synthesis.md"
+        if synth_path.exists():
+            latest_content = synth_path.read_text(encoding="utf-8")
 
-    # Primer section
-    if primers_dir.exists() and any(primers_dir.glob("*.md")):
-        index_parts.append("<h2>Primer</h2>")
-        if (primers_dir / "synthesis.md").exists():
-            index_parts.append(
-                '<p><a href="primer.html">Read Primer Synthesis</a></p>'
-            )
-        provider_links = []
-        for name in ("claude", "gpt", "gemini"):
-            if (primers_dir / f"{name}.md").exists():
-                label = name.capitalize()
-                provider_links.append(
-                    f'<a href="primers/{name}.html">{label}</a>'
-                )
-        if provider_links:
-            index_parts.append(
-                "<p>Individual reports: " + " | ".join(provider_links) + "</p>"
-            )
+    if latest_content:
+        # Show latest synthesis directly, with nav to individual reports
+        providers_available = [
+            n for n in ("synthesis", "claude", "gpt")
+            if (updates_dir / latest_date / f"{n}.md").exists()
+        ]
+        nav = _provider_nav("synthesis", providers_available, f"{latest_date}/")
+        # Fix synthesis link to point to self (we're showing it inline)
+        nav = nav.replace(f'href="{latest_date}/synthesis.html"', 'href="#"')
 
-    # Updates archive
-    if update_dates:
-        index_parts.append("<h2>Updates</h2><ul class='update-list'>")
-        for d in update_dates:
-            line = f'<li><a href="{d}/synthesis.html">{d}</a>'
-            plinks = []
-            for name in ("claude", "gpt", "gemini"):
-                if (updates_dir / d / f"{name}.md").exists():
-                    plinks.append(f'<a href="{d}/{name}.html">{name.capitalize()}</a>')
-            if plinks:
-                line += ' <span class="provider-links">(' + " | ".join(plinks) + ")</span>"
-            line += "</li>"
-            index_parts.append(line)
-        index_parts.append("</ul>")
+        sidebar = _build_sidebar(slug, title, update_dates, primers_dir, updates_dir, latest_date)
+        report_html = _md_to_html(latest_content)
 
-    _render(
-        SITE / slug / "index.html",
-        title,
-        "\n".join(index_parts),
-        bc_topic,
-        1,
-    )
+        content = f'<div class="layout"><div>{nav}{report_html}</div>{sidebar}</div>'
+    else:
+        # No updates yet — show primer or placeholder
+        content = f"<h1>{title}</h1><p>No updates yet.</p>"
+
+    _render(SITE / slug / "index.html", title, content, 1)
 
     # --- Primer pages ---
     if primers_dir.exists():
         providers_available = [
-            n for n in ("synthesis", "claude", "gpt", "gemini")
+            n for n in ("synthesis", "claude", "gpt")
             if (primers_dir / f"{n}.md").exists()
         ]
 
-        # Primer synthesis → primer.html
         if (primers_dir / "synthesis.md").exists():
             md_text = (primers_dir / "synthesis.md").read_text(encoding="utf-8")
             nav = _provider_nav("synthesis", providers_available, "primers/")
-            # synthesis link points to self at primer.html
             nav = nav.replace('href="primers/synthesis.html"', 'href="primer.html"')
-            content = nav + _md_to_html(md_text)
-            bc = f'<a href="{_depth_to_base(1)}">Home</a> &rsaquo; <a href=".">{title}</a> &rsaquo; Primer'
-            _render(SITE / slug / "primer.html", f"{title} — Primer", content, bc, 1)
+            sidebar = _build_sidebar(slug, title, update_dates, primers_dir, updates_dir)
+            report_html = _md_to_html(md_text)
+            content = f'<div class="layout"><div>{nav}{report_html}</div>{sidebar}</div>'
+            _render(SITE / slug / "primer.html", f"{title} — Primer", content, 1)
 
-        # Individual primer reports
-        for name in ("claude", "gpt", "gemini"):
+        for name in ("claude", "gpt"):
             md_path = primers_dir / f"{name}.md"
             if not md_path.exists():
                 continue
             md_text = md_path.read_text(encoding="utf-8")
             nav = _provider_nav(name, providers_available, "")
             nav = nav.replace('href="synthesis.html"', 'href="../primer.html"')
-            content = nav + _md_to_html(md_text)
-            bc = (
-                f'<a href="{_depth_to_base(2)}">Home</a> &rsaquo; '
-                f'<a href="..">{title}</a> &rsaquo; '
-                f'<a href="../primer.html">Primer</a> &rsaquo; {name.capitalize()}'
-            )
+            sidebar = _build_sidebar(slug, title, update_dates, primers_dir, updates_dir)
+            # Fix sidebar paths — we're one level deeper
+            sidebar = sidebar.replace('href="primer.html"', 'href="../primer.html"')
+            sidebar = sidebar.replace('href="primers/', 'href="')
+            for d in update_dates:
+                sidebar = sidebar.replace(f'href="{d}/', f'href="../{d}/')
+            report_html = _md_to_html(md_text)
+            content = f'<div class="layout"><div>{nav}{report_html}</div>{sidebar}</div>'
             _render(
                 SITE / slug / "primers" / f"{name}.html",
                 f"{title} — Primer ({name.capitalize()})",
                 content,
-                bc,
                 2,
             )
 
@@ -233,7 +255,7 @@ def _build_topic(slug: str, title: str):
     for d in update_dates:
         day_dir = updates_dir / d
         providers_available = [
-            n for n in ("synthesis", "claude", "gpt", "gemini")
+            n for n in ("synthesis", "claude", "gpt")
             if (day_dir / f"{n}.md").exists()
         ]
 
@@ -241,17 +263,19 @@ def _build_topic(slug: str, title: str):
             md_path = day_dir / f"{name}.md"
             md_text = md_path.read_text(encoding="utf-8")
             nav = _provider_nav(name, providers_available, "")
-            content = nav + _md_to_html(md_text)
+            sidebar = _build_sidebar(slug, title, update_dates, primers_dir, updates_dir, d)
+            # Fix sidebar paths — we're one level deeper
+            sidebar = sidebar.replace('href="primer.html"', 'href="../primer.html"')
+            sidebar = sidebar.replace('href="primers/', 'href="../primers/')
+            for dd in update_dates:
+                if f'href="{dd}/' in sidebar:
+                    sidebar = sidebar.replace(f'href="{dd}/', f'href="../{dd}/')
+            report_html = _md_to_html(md_text)
             label = "Synthesis" if name == "synthesis" else name.capitalize()
-            bc = (
-                f'<a href="{_depth_to_base(2)}">Home</a> &rsaquo; '
-                f'<a href="..">{title}</a> &rsaquo; '
-                f'{d} &rsaquo; {label}'
-            )
+            content = f'<div class="layout"><div>{nav}{report_html}</div>{sidebar}</div>'
             _render(
                 SITE / slug / d / f"{name}.html",
                 f"{title} — {d} ({label})",
                 content,
-                bc,
                 2,
             )
