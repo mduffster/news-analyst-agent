@@ -2,7 +2,7 @@ name: Daily Update & Deploy
 
 on:
   schedule:
-    - cron: '0 10 * * 1-5'  # 10am UTC weekdays only
+    - cron: '0 14 * * 1-5'  # 2pm UTC / 10am ET / 7am PT weekdays
   workflow_dispatch:
 
 permissions:
