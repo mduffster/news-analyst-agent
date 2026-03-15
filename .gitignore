@@ -17,3 +17,5 @@ build/
 .pytest_cache/
 site/
 .DS_Store
+prompts/onboarding_agent.md
+app/onboard.py
