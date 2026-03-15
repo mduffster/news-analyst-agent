@@ -1,4 +1,4 @@
-# About News Analyst
+# About Parallax
 
 In fast moving situations, it's difficult to get news without editorial slant problems. Social media democratizes the info dissemination and gathering process, but it is noisy, algorithmically filtered, and shaped by whatever window you happen to be looking through. Getting a clear picture of what's actually happening on any given topic means reading widely and reconciling contradictions yourself. Most people don't have time for that.
 

@@ -20,7 +20,7 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} — News Analyst</title>
+    <title>{{ title }} — Parallax</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <style>
         :root {
@@ -157,7 +157,7 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 <nav class="container">
-    <ul><li><a href="{{ base }}"><strong>News Analyst</strong></a></li></ul>
+    <ul><li><a href="{{ base }}"><strong>Parallax</strong></a></li></ul>
     <ul>
         <li><button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">&#9790;</button></li>
         <li><a href='https://ko-fi.com/U7U61W2DLF' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></li>
@@ -322,7 +322,7 @@ def build_site(output_dir: str = "site") -> None:
         items_html = ""
         for slug, title in topics:
             items_html += f'<article><h3><a href="{slug}/">{title}</a></h3></article>\n'
-        index_html = f"<h1>News Analyst</h1>\n<p>AI-powered analysis.</p>\n{items_html}"
+        index_html = f"<h1>Parallax</h1>\n<p>AI-powered analysis.</p>\n{items_html}"
         _render(SITE / "index.html", "Home", index_html, 0)
 
     # About page
