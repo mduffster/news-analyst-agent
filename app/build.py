@@ -161,6 +161,7 @@ BASE_TEMPLATE = """<!DOCTYPE html>
     <ul>
         <li><button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">&#9790;</button></li>
         <li><a href='https://ko-fi.com/U7U61W2DLF' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></li>
+        <li><a href="{{ base }}/feedback.html">Contact</a></li>
         <li><a href="{{ base }}/about.html">About</a></li>
     </ul>
 </nav>
@@ -170,7 +171,7 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 <footer class="container">
     <div class="footer-links">
         <small>Updated {{ build_date }}</small>
-        <a href="https://github.com/mduffster/news-analyst-agent" target="_blank">GitHub</a>
+        <a href="{{ base }}/feedback.html">Contact</a>
         <a href='https://ko-fi.com/U7U61W2DLF' target='_blank'>Support this project</a>
     </div>
 </footer>
@@ -330,6 +331,12 @@ def build_site(output_dir: str = "site") -> None:
     if about_path.exists():
         about_html = _md_to_html(about_path.read_text(encoding="utf-8"))
         _render(SITE / "about.html", "About", about_html, 0)
+
+    # Feedback page
+    feedback_path = ROOT / "feedback.md"
+    if feedback_path.exists():
+        feedback_html = _md_to_html(feedback_path.read_text(encoding="utf-8"))
+        _render(SITE / "feedback.html", "Contact", feedback_html, 0)
 
     print(f"Built site with {len(topics)} topic(s) at {SITE}")
 
