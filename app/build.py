@@ -48,6 +48,10 @@ BASE_TEMPLATE = """<!DOCTYPE html>
 <body>
 <nav class="container">
     <ul><li><a href="{{ base }}"><strong>News Analyst</strong></a></li></ul>
+    <ul>
+        <li><a href="{{ base }}/about.html">About</a></li>
+        <li><a href='https://ko-fi.com/U7U61W2DLF' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></li>
+    </ul>
 </nav>
 <main class="container">
     {{ content }}
@@ -168,6 +172,12 @@ def build_site(output_dir: str = "site") -> None:
             items_html += f'<article><h3><a href="{slug}/">{title}</a></h3></article>\n'
         index_html = f"<h1>News Analyst</h1>\n<p>AI-powered intelligence analysis.</p>\n{items_html}"
         _render(SITE / "index.html", "Home", index_html, 0)
+
+    # About page
+    about_path = ROOT / "about.md"
+    if about_path.exists():
+        about_html = _md_to_html(about_path.read_text(encoding="utf-8"))
+        _render(SITE / "about.html", "About", about_html, 0)
 
     print(f"Built site with {len(topics)} topic(s) at {SITE}")
 
