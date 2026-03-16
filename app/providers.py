@@ -41,6 +41,11 @@ async def call_claude(system_prompt: str, user_message: str) -> ProviderResult:
                         {"url": result.url, "title": getattr(result, "title", "")}
                     )
 
+    # Strip CoT preamble before first heading
+    heading_pos = content_text.find("\n#")
+    if heading_pos > 0:
+        content_text = content_text[heading_pos + 1:]
+
     return ProviderResult(
         content=content_text,
         sources=sources,
