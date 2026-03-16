@@ -162,7 +162,9 @@ async def generate_updates(
         print("  Skipping synthesis (need at least 2 provider results)")
         return
 
-    # Synthesize — synthesis model gets the prior synthesis for its own continuity
+    # Synthesize — wait for rate limit window to reset
+    print("  Waiting 60s for rate limit reset before synthesis...")
+    await asyncio.sleep(60)
     print("  Generating update synthesis...")
     synth_role = _read(PROMPTS / "synthesis_role.md")
     synth_mode = _read(PROMPTS / "synthesis_mode_update.md")
