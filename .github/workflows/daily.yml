@@ -7,10 +7,14 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - uses: actions/checkout@v4
 
@@ -35,3 +39,12 @@ jobs:
           git add topics/
           git diff --staged --quiet || git commit -m "Daily update $(date +%Y-%m-%d)"
           git push
+
+      - name: Build static site
+        run: python run.py build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+      - uses: actions/deploy-pages@v4
