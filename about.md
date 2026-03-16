@@ -12,6 +12,10 @@ A synthesis model then reads the independent reports and produces a single unifi
 
 The individual reports are always available if you want to see what each model produced on its own.
 
+## Want me to add a topic?
+
+You can contact me by using GitHub issues or by filling out the contact form. I'll fast track topics if you are willing to pay for the tokens, otherwise new additions are subject to my "editorial discretion". 
+
 ## Design principles
 
 **Let models do what they do.** Minimal prompting means maximum information variety. We tell the models what to research, and what they did before, but we don't dictate sourcing or report structure.
