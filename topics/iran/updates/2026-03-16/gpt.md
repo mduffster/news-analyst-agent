@@ -1,72 +1,62 @@
 ## Daily incremental update — US–Israel–Iran conflict  
-**As of Mon, March 16, 2026 (ET)**
+**As of Mon, March 16, 2026 (ET)**  
+*(Incremental check for “what’s new since the last report”: there were **no clearly new, material developments** beyond additional framing/details in today’s reporting. Below are the deltas that matter.)*
 
-### What’s new since March 15
-1) **Hormuz “closure” is being reframed as selective, not absolute**  
-- Iran’s foreign minister said the Strait of Hormuz is “open” from Iran’s perspective, **but not for the U.S., Israel, and their allies**; he also rejected claims Iran is seeking a negotiated end (“neither truce nor talks”). ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))  
-**What it means:** This posture sustains market fear and operational risk while giving Tehran rhetorical room to argue it isn’t “blockading the world.” Practically, it still discourages most commercial shipping/insurers if the threat is perceived as politically conditional and unpredictable.
+### What changed since the prior update (Mar 16 → latest info available today)
+1) **Iraq export halt is now explicitly tied to the Hormuz disruption timeline**  
+- AP’s live “Latest” feed includes an Iraqi-official-style data point: Iraq used to export **~3.4 mbpd via Basra**, but exports **stopped 2–3 days after the war began**, attributed to “military operations and the closure of the Strait of Hormuz.” ([apnews.com](https://apnews.com/article/4d20e4ee0f47137d34ba0d67dd4dda6c?utm_source=openai))  
+**What it means:** This is incremental confirmation that the Hormuz shock is no longer just “risk premium”—it’s producing downstream, state-level export stoppages. That reinforces the **prolonged maritime/economic disruption** pathway rather than a quick normalization.
 
-2) **A trickle of transits occurred, but traffic remains severely constrained**  
-- AP reports **a small number of ships** (including Indian- and Pakistani-flagged vessels) crossed the strait over the weekend, while overall shipping remains “a trickle.” ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))  
-**What it means:** This supports yesterday’s “sticky disruption” thesis: not a full shutdown, but enough threat/insurance pressure to keep volumes depressed—consistent with a prolonged maritime-security mission.
+2) **Potential escalation vector: “Hormuz Coalition” + Kharg Island oil-hub talk (political signaling so far)**  
+- Axios reports the White House is floating a “Hormuz Coalition” concept and **separately discusses Kharg Island** (Iran’s key oil export hub), with hawkish U.S. domestic voices urging escalation. ([axios.com](https://www.axios.com/2026/03/16/trump-iran-hormuz-strait-kharg-island?utm_source=openai))  
+**Tag:** **[REPORTED]** (single outlet; political/planning signal, not a confirmed operational decision).  
+**What it means:** Even if not executed, this kind of signaling can: (a) harden Iran’s incentive to keep shipping under threat, and (b) increase market and partner anxiety about **energy-infrastructure escalation**—which tends to **lock in** longer coalition force-protection and maritime-security demands.
 
-3) **Coalition/escort effort still lacks commitments; Europe demands clarity**  
-- Trump has publicly pressed ~7 countries for warships, but **no commitments** are reported in the AP account. ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))  
-- EU foreign ministers signaled they need **clear U.S./Israeli objectives and end-state**, with discussion of potentially extending the EU’s Red Sea naval mission (Aspides) toward the Gulf/Hormuz; Italy voiced skepticism about expanding mandates. ([apnews.com](https://apnews.com/article/6360165465e302cbe05d2f27eafff145))  
-**What it means:** The “largely U.S.-carried” Hormuz burden remains the base case. The EU conversation is real movement, but it’s still process—not force generation.
+3) **EU/Hormuz: still “process,” not force generation**  
+- No new commitments surfaced; AP’s EU coverage remains centered on European demands for **clear U.S./Israeli objectives and end-state** before sending warships. ([apnews.com](https://apnews.com/article/6360165465e302cbe05d2f27eafff145?utm_source=openai))  
+**What it means:** This continues to support the working assumption that the Hormuz burden remains **primarily U.S.-carried** in the near term.
 
-4) **Regional spillover: reported Iran-linked strike temporarily shut Dubai airport**  
-- AP reports an **Iranian drone strike temporarily shut Dubai’s airport**. ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))  
-**What it means:** Gulf-state exposure is rising. Even intermittent disruptions to a global aviation/logistics hub increase pressure on Washington and partners to prioritize air/missile defense and counter-drone operations—another driver of prolonged entanglement.
-
-5) **Lebanon front: displacement/casualty numbers continue to climb in reporting**  
-- AP reiterates **>800,000 displaced** and **~850 killed** in Lebanon from Israeli strikes, with additional reports of strikes including paramedics among the dead. ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))  
-**What it means:** The humanitarian crisis is deepening and politically hardening positions, increasing the odds the Lebanon front becomes a durable second theater rather than a “contained” flare-up.
+### Bottom line today
+**No major new battlefield facts** (new strikes, new ceasefire channel, new coalition ships) were clearly reported beyond what yesterday’s report already captured. The main “new” information is **economic spillover clarity (Iraq)** and **escalation signaling (Kharg/Hormuz Coalition talk)**.
 
 ---
 
-## Assessment (what changed in the forecast)
-- **Main shift today:** The combination of (a) selective Hormuz “closure,” (b) only a trickle of transits, and (c) continued lack of allied naval commitments **reinforces** that Hormuz is evolving into a **standing security problem** rather than a short shock. ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))  
-- The **Dubai airport disruption** is a meaningful escalation in regional spillover risk, pushing incentives toward **force protection + counter-UAS + air defense** expansion. ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))
+## Outcome tracker (probabilities)
 
-No single datapoint today strongly increases the probability of a **U.S. invasion/occupation**; the pattern still points to prolonged air/sea + regional defense.
+### 0–60 days (from prior report → today)
+- **Limited U.S. engagement / taper to mostly defensive posture:** **12%** (was 13%)  
+- **Sustained air/sea campaign:** **41%** (unchanged)  
+- **Prolonged regional entanglement:** **43%** (was 41%)  
+- **Large-scale U.S. ground war in Iran (invasion/occupation):** **4%** (was 5%)
 
----
+**What moved and why:**  
+- **Upweight entanglement (+2):** Iraq’s export stoppage framing strengthens the case that Hormuz disruption is translating into broader regional economic fallout, which historically increases pressure for **enduring naval/air-defense posture** rather than quick drawdown. ([apnews.com](https://apnews.com/article/4d20e4ee0f47137d34ba0d67dd4dda6c?utm_source=openai))  
+- **Downweight invasion (-1):** Despite escalation rhetoric, today’s incremental info still points more to **maritime/economic coercion** than invasion preparation. (Kharg talk is noted but not yet a demonstrated operational shift.) ([axios.com](https://www.axios.com/2026/03/16/trump-iran-hormuz-strait-kharg-island?utm_source=openai))  
 
-## Outcome tracker (updated probabilities)
+### 2–12 months
+- **Limited engagement:** **8%** (was 9%)  
+- **Sustained air/sea campaign:** **20%** (was 21%)  
+- **Prolonged regional entanglement:** **60%** (was 58%)  
+- **Large-scale U.S. ground war in Iran:** **12%** (unchanged)
 
-### 0–60 days (from Mar 15 → Mar 16)
-- **Limited U.S. engagement / taper to mostly defensive posture:** **13%** (was 14%)  
-- **Sustained air/sea campaign:** **41%** (was 42%)  
-- **Prolonged regional entanglement:** **41%** (was 38%)  
-- **Large-scale U.S. ground war in Iran (invasion/occupation):** **5%** (was 6%)
-
-**Drivers of change:**  
-- **Upweight entanglement**: selective but persistent Hormuz threat + no clear coalition commitments + spillover to Dubai. ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))  
-- **Slight downweight ground-war tail risk**: today’s new info emphasizes maritime/air/retaliation dynamics rather than mobilization for invasion.
-
-### 2–12 months (from Mar 15 → Mar 16)
-- **Limited engagement:** **9%** (was 10%)  
-- **Sustained air/sea campaign:** **21%** (was 22%)  
-- **Prolonged regional entanglement:** **58%** (was 55%)  
-- **Large-scale U.S. ground war in Iran:** **12%** (was 13%)
-
-**Drivers:** A longer-duration Hormuz security problem plus multi-front persistence (Lebanon + Gulf spillover) increases the odds of “ongoing regional mission set.” ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))
+**Driver:** persistent Hormuz-linked economic/energy effects + lack of clear allied on-ramp/off-ramp keeps the “long mission set” most likely. ([apnews.com](https://apnews.com/article/4d20e4ee0f47137d34ba0d67dd4dda6c?utm_source=openai))  
 
 ---
 
 ## “Boots on the ground” sub-tracker (0–60 days)
-- **A) More U.S. boots in region (force protection/base security/embassy/logistics): 78%** (was 75%)  
-  - Moved up on increased spillover risk (Dubai) and continued regional attacks dynamic. ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))  
+- **A) More U.S. boots in region (force protection/base security/embassy/logistics): 80%** (was 78%)  
 - **B) Ground raids inside Iran (SOF/limited site actions): 15%** (unchanged)  
-- **C) Full-scale invasion/occupation:** **5%** (was 6%)
+- **C) Full-scale invasion/occupation:** **4%** (was 5%)
+
+**Reason for A +2:** sustained regional spillover + growing economic stakes typically drive additional defensive deployments. ([apnews.com](https://apnews.com/article/4d20e4ee0f47137d34ba0d67dd4dda6c?utm_source=openai))  
 
 ---
 
-## Emerging watch items (not new outcomes yet)
-- **EU naval-mission expansion discussions**: could become meaningful if it turns into concrete tasking/ROE changes rather than political signaling. ([apnews.com](https://apnews.com/article/6360165465e302cbe05d2f27eafff145))  
-- **Gulf critical infrastructure / aviation disruption trendline**: if repeated, it may force a step-change in coalition posture and defensive deployments. ([apnews.com](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d))
+## Watch items (new/strengthened)
+- **Energy-infrastructure escalation risk (Kharg Island rhetoric):** worth tracking as a distinct *trigger* even if it doesn’t become a separate outcome yet. ([axios.com](https://www.axios.com/2026/03/16/trump-iran-hormuz-strait-kharg-island?utm_source=openai))  
+- **Concrete EU naval tasking/ROE changes:** still the key indicator that “process” is becoming “force.” ([apnews.com](https://apnews.com/article/6360165465e302cbe05d2f27eafff145?utm_source=openai))
 
 ## Sources
-- [Iran hits Gulf neighbors as concerns of energy crisis persist | AP News](https://apnews.com/article/5f56cff945472db519d91dd5036ead9d)
-- [EU weighs action to secure shipping in the Persian Gulf | AP News](https://apnews.com/article/6360165465e302cbe05d2f27eafff145)
+- [The Latest: Trump calls for help to reopen the Strait of Hormuz](https://apnews.com/article/4d20e4ee0f47137d34ba0d67dd4dda6c?utm_source=openai)
+- [Trump eyes "Hormuz Coalition," seizure of Iran's Kharg Island oil hub](https://www.axios.com/2026/03/16/trump-iran-hormuz-strait-kharg-island?utm_source=openai)
+- [EU wants to know more before agreeing to Trump's Hormuz warship demands](https://apnews.com/article/6360165465e302cbe05d2f27eafff145?utm_source=openai)
