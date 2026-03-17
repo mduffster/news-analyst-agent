@@ -196,16 +196,18 @@ function toggleTheme() {
 _jinja_env = jinja2.Environment(autoescape=True)
 _template = _jinja_env.from_string(BASE_TEMPLATE)
 
-# Regex to convert [VERIFIED] etc. into styled badges
-_TAG_PATTERN = re.compile(r'\[(?P<tag>VERIFIED|OFFICIAL|REPORTED|UNCONFIRMED)\]')
+# Regex to convert [VERIFIED], [OFFICIAL — Israel], [UNCONFIRMED by Iran], etc.
+_TAG_PATTERN = re.compile(r'\[(?P<tag>VERIFIED|OFFICIAL|REPORTED|UNCONFIRMED)(?P<extra>[^\]]*)\]')
 
 
 def _style_tags(html: str) -> str:
-    """Replace [VERIFIED] etc. with styled badge spans."""
+    """Replace info quality tags with styled badge spans."""
     def _replace(m):
         tag = m.group("tag")
+        extra = m.group("extra").strip()
         css_class = f"tag-{tag.lower()}"
-        return f'<span class="tag {css_class}">{tag}</span>'
+        label = tag + (f" {extra}" if extra else "")
+        return f'<span class="tag {css_class}">{label}</span>'
     return _TAG_PATTERN.sub(_replace, html)
 
 
