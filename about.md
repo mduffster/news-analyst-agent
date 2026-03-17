@@ -1,29 +1,33 @@
 # About Parallax
 
-In fast moving situations, it's difficult to get news without editorial slant problems. Social media democratizes info dissemination and gathering, but it is noisy, algorithmically filtered, and weird. Getting a clear picture of what's actually happening means reading widely and reconciling contradictions yourself. Most people don't have time for that.
+Parallax is for people who need to understand live issues quickly.
 
-AI is great for this. They synthesize and coalesce large amounts of information super fast. So that's what this project does.
+In fast-moving situations, it is hard to synthesize information while sorting through editorial slant, social media noise, and our own predilections. The best way to understand what is actually happening is to read widely and reconcile contradictions and ambiguities yourself. Busy people cannot do that every day.
+
+That is why I built Parallax.
 
 ## How it works
 
-Each day, multiple AI models (currently Claude and GPT) independently research the same topic using web search. They receive a short topic prompt and minimal instruction. We keep the prompts lightweight on purpose, to encourage a wide range of research strategies. The less we constrain how each model approaches the topic, the more variety we get in what they find and what they emphasize. 
+Each day, multiple AI models independently research the same topic. A synthesis agent then combines what those models found into a single report.
 
-A synthesis model then reads the independent reports and produces a single unified briefing. It takes the best of what each model found and puts it into one readable report. 
+I keep the prompts light on purpose. The less I constrain how each model approaches a topic, the more variety I get in what they find and what they emphasize.
+
+The synthesis agent takes those separate reports and surfaces both disagreement and concurrence, while building an overall picture of the situation.
 
 The individual reports are always available if you want to see what each model produced on its own.
 
 ## Want me to add a topic?
 
-You can contact me by using GitHub issues or by filling out the contact form. I'll fast track topics if you are willing to pay for the tokens, otherwise new additions are subject to my "editorial discretion". 
+You can contact me through GitHub issues or by filling out the contact form. If you are willing to pay for the tokens, I will fast-track a topic. Otherwise, new additions are subject to my editorial discretion.
 
 ## Design principles
 
-**Let models do what they do.** Minimal prompting means maximum information variety. We tell the models what to research, and what they did before, but we don't dictate sourcing or report structure.
+**Let models do what they do.** Minimal prompting means maximum information variety. I tell the models what to research, but I do not dictate sourcing or report structure.
 
-**Label what you know and how well you know it.** Models tag claims by confidence: [VERIFIED] -- confirmed via multiple sources, [OFFICIAL] -- official public statements that could be used for misdirection, etc, [REPORTED] -- some reports exist, [UNCONFIRMED] -- rumors or hearsay. Not all information is equal, and the labels make that obvious.
+**Label what you know and how well you know it.** Models tag claims by confidence: [VERIFIED] for claims confirmed across multiple sources, [OFFICIAL] for public statements that may still be misleading, [REPORTED] for claims that appear in reporting but are not fully nailed down, and [UNCONFIRMED] for rumors or hearsay. Not all information is equal, and the labels make that obvious.
 
-**Quantify uncertainty.** Reports assign probability estimates to possible outcomes. This forces some quantification of what's actually likely, and makes it possible to track how assessments shift over time.
+**Quantify uncertainty.** Reports assign probability estimates to possible outcomes. That forces some quantification of what is actually likely and makes it possible to track how assessments shift over time.
 
-The whole pipeline runs automatically and publishes here. It works for any topic, and I am open to suggestions, though will exercise editorial discretion about topic choice. It takes about an hour to set up a new topic once approved. 
+The whole pipeline runs automatically and publishes here. It can work for any topic, and I am open to suggestions, though I will exercise editorial discretion in what I add. Once approved, a new topic usually takes about an hour to set up.
 
 Built by [Matt Duffy](https://github.com/mduffster).
