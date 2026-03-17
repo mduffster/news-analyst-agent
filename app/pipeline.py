@@ -162,10 +162,7 @@ async def generate_updates(
         print("  Skipping synthesis (need at least 2 provider results)")
         return
 
-    # Synthesize — wait for rate limit window to reset
-    print("  Waiting 60s for rate limit reset before synthesis...")
-    await asyncio.sleep(60)
-    print("  Generating update synthesis...")
+    # Synthesize with retry for rate limits
     synth_role = _read(PROMPTS / "synthesis_role.md")
     synth_mode = _read(PROMPTS / "synthesis_mode_update.md")
 
@@ -186,9 +183,23 @@ async def generate_updates(
         f"Today's individual reports:{reports_text}"
     )
 
-    synth_result = await providers.call_synthesis(synth_system, synth_user)
-    _save_report(update_dir / "synthesis.md", synth_result)
-    print("  Update complete.")
+    for attempt in range(3):
+        delay = 90 * (attempt + 1)
+        print(f"  Waiting {delay}s before synthesis (attempt {attempt + 1}/3)...", flush=True)
+        await asyncio.sleep(delay)
+        print(f"  Calling synthesis now...", flush=True)
+        try:
+            synth_result = await providers.call_synthesis(synth_system, synth_user)
+            _save_report(update_dir / "synthesis.md", synth_result)
+            print("  Update complete.")
+            return
+        except Exception as e:
+            if "rate_limit" in str(e) and attempt < 2:
+                print(f"  Rate limited, will retry...", flush=True)
+                continue
+            raise
+
+    print("  [ERROR] Synthesis failed after 3 attempts")
 
 
 async def generate_all_updates(date_str: str | None = None) -> None:
