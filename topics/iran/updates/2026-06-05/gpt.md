@@ -2,27 +2,31 @@
 **As of Fri, June 5, 2026 (ET)**  
 **New since Thu, June 4, 2026 (ET)**
 
-### 1) **Israel escalates strikes + issues broader evacuation warnings in southern Lebanon**
-- Israel’s air force struck multiple areas in **southern Lebanon** on Friday, and the IDF issued **evacuation warnings for nine villages** (including at least one previously relatively spared area sheltering displaced people). Lebanon’s state news agency reported **nine killed across six locations**. **[VERIFIED]** ([apnews.com](https://apnews.com/article/303de2f806c493917150e9443ab99c03?utm_source=openai))
+### 1) Kuwait airport strike: narrative fight hardens; U.S. explicitly denies firing any missiles at the airport
+- Reporting today reiterates the **Iran/IRGC line** that the Kuwait airport terminal damage was caused by a **malfunctioning U.S.-made Patriot** (i.e., air-defense failure) rather than an Iranian strike. **[OFFICIAL]** ([presstv.ir](https://www.presstv.ir/Detail/2026/06/04/769804/Iran-IRGC-malfunctioning-US-Patriot-Kuwait-airport?utm_source=openai))  
+- Separately, Reuters-syndicated coverage (via Chosun/Reuters-Yonhap) says the **U.S. military refuted** the claim, stating it **has never fired missiles at Kuwait International Airport**. **[REPORTED]** ([chosun.com](https://www.chosun.com/english/world-en/2026/06/05/K4A5YOPF7VBG3D7LQHTBMHK7TA/?utm_source=openai))  
 
 **What changed / what it means:**  
-- The Lebanon front is **widening geographically** (evacuation warnings across multiple villages), which reduces room for “compartmentalizing” Lebanon from the broader Iran-linked confrontation. This increases the likelihood of **retaliatory Hezbollah action** that could, in turn, pull more U.S./regional air-defense and maritime assets into persistent high-tempo operations.
+- This moves the Kuwait incident from “who did it?” toward **institutionalized blame-locking**: Tehran is trying to cap diplomatic fallout by reframing it as U.S./Gulf air-defense error; Washington is hardening the public record to prevent that reframing from taking hold.  
+- Practically, this raises the odds of **Kuwait/GCC demands for a joint incident investigation, tighter C2/ROE integration, and potentially new constraints** on intercept doctrine near civilian infrastructure—because the political liability now attaches either way (Iranian attack vs. friendly-fire/errant intercept).
 
 ---
 
-### 2) **IAEA “opacity” remains the dominant nuclear escalator (no sign of near-term reversal)**
-- Follow-on coverage reiterates the IAEA position that it has been **unable to inspect** affected Iranian facilities and **cannot account for the size/composition/whereabouts** of Iran’s enriched uranium stockpile. **[VERIFIED]** ([apnews.com](https://apnews.com/article/28da35ab9a372494337a471fb0fa6048?utm_source=openai))
+### 2) Lebanon track: Hezbollah rejection is now broadly framed as a direct obstacle to ending the Iran war
+- Reuters-style summaries today emphasize that Hezbollah’s rejection and Israel’s stated unwillingness to withdraw troops **undermine U.S. efforts** and **cloud prospects** for progress on the wider Iran war settlement. **[REPORTED]** ([internazionale.it](https://www.internazionale.it/ultime-notizie-reuters/2026/06/05/lebanon-ceasefire-raises-hopes-of-progress-for-iran-deal?utm_source=openai))  
+- Additional coverage reiterates Hezbollah’s stance: no ceasefire absent **full Israeli withdrawal**, while Israel signals it won’t withdraw—making the impasse clearer and more durable. **[VERIFIED]** ([abc.net.au](https://www.abc.net.au/news/2026-06-05/hezbollah-rejects-latest-lebanon-israel-ceasefire-agreement/106762184?utm_source=openai))  
 
 **What changed / what it means:**  
-- No “fix” has emerged (e.g., restored access/monitoring). That keeps the system in a **high-uncertainty** equilibrium where military actors tend to plan against worst-case assumptions—raising the odds of continued coercive air/sea posture rather than a clean glide path to de-escalation.
+- The key shift is the **convergence in framing**: more outlets are treating Lebanon not as a separable “side theater,” but as a **gating issue** for any broader de-escalation with Iran.  
+- Expect increased U.S. pressure on Israel to avoid Beirut-scale escalation *or* (if pressure fails) a drift toward **expanded Israeli operations** justified by the claim that Hezbollah has foreclosed diplomacy (Axios previously flagged the “green light” risk). **[REPORTED]** ([axios.com](https://www.axios.com/2026/06/03/israel-lebanon-ceasefire-hezbollah-us?utm_source=openai))  
 
 ---
 
-### 3) **No clearly new, decisive Gulf/Hormuz datapoint surfaced today (in open reporting)**
-- I did **not** find a major new, widely confirmed operational development since yesterday on the Kuwait-airport attribution dispute or a new U.S.–Iran naval escalation beyond what was already circulating earlier in the week.
+### 3) Nuclear monitoring: nothing materially new today beyond wider pickup of the IAEA warning
+- Today’s coverage largely **repackages** yesterday’s IAEA warning that it cannot account for Iran’s enriched-uranium stockpile and cannot carry out safeguards responsibilities. **[VERIFIED]** ([dawn.com](https://www.dawn.com/news/amp/2005387?utm_source=openai))  
 
 **What changed / what it means:**  
-- The conflict picture today is more about **intensification on the Lebanon front** and persistent **nuclear verification breakdown**, rather than a fresh maritime turning point.
+- No new technical detail, but the wider pickup reinforces that **“nuclear opacity” remains the dominant strategic risk amplifier**: even absent new strikes, reduced verifiability sustains pressure for coercive postures.
 
 ---
 
@@ -30,28 +34,35 @@
 
 ### 0–60 days (sum ~100%)
 - **Limited U.S. engagement / taper to mostly defensive posture:** **2%** (flat)  
-- **Sustained air/sea campaign:** **66%** (up from 64%)  
-- **Prolonged regional entanglement (shipping/energy + proxies + episodic strikes):** **30%** (down from 32%)  
+- **Sustained air/sea campaign:** **65%** (**up from 64%**)  
+- **Prolonged regional entanglement (shipping/energy + proxies + episodic strikes):** **31%** (**down from 32%**)  
 - **Large-scale U.S. ground war in Iran (invasion/occupation):** **2%** (flat)
 
 **What moved / why (since June 4):**
-- **Sustained air/sea +2 / Entanglement -2:** Israel’s expanded strikes/evacuation warnings in southern Lebanon point to **higher operational tempo and broader target sets**, which fits better with an ongoing structured campaign than a lower-grade simmer. **[VERIFIED]** ([apnews.com](https://apnews.com/article/303de2f806c493917150e9443ab99c03?utm_source=openai))  
-- Nuclear opacity remains unresolved, reinforcing the “stay in the air/sea pressure posture” logic. **[VERIFIED]** ([apnews.com](https://apnews.com/article/28da35ab9a372494337a471fb0fa6048?utm_source=openai))
+- **Sustained air/sea +1 / Entanglement -1:** The Kuwait incident is settling into a **public, official U.S.–Iran blame contest** rather than fading, and Lebanon is increasingly described as **blocking** broader talks—both dynamics favor continued structured operations over a muddle-through simmer. **[REPORTED]** ([chosun.com](https://www.chosun.com/english/world-en/2026/06/05/K4A5YOPF7VBG3D7LQHTBMHK7TA/?utm_source=openai))  
 
 ### 2–12 months (sum ~100%)
 - **Limited engagement:** **4%** (flat)  
-- **Sustained air/sea campaign:** **39%** (up from 38%)  
-- **Prolonged regional entanglement:** **52%** (down from 53%)  
+- **Sustained air/sea campaign:** **39%** (**up from 38%**)  
+- **Prolonged regional entanglement:** **52%** (**down from 53%**)  
 - **Large-scale U.S. ground war in Iran:** **5%** (flat)
 
-**Driver:** The main new input is **Lebanon-front escalation signals**, while the IAEA-access problem persists with no visible diplomatic breakthrough. ([apnews.com](https://apnews.com/article/303de2f806c493917150e9443ab99c03?utm_source=openai))
+**Driver:** More evidence that **proxy/Lebanon and Gulf incidents are not compartmentalizing**, which slightly increases the probability of a longer “campaign” phase rather than settling into lower-grade entanglement. **[REPORTED]** ([internazionale.it](https://www.internazionale.it/ultime-notizie-reuters/2026/06/05/lebanon-ceasefire-raises-hopes-of-progress-for-iran-deal?utm_source=openai))  
 
 ---
 
-## Framework check — items to watch
-- **Lebanon spillover risk:** If evacuations expand further or casualties spike, watch for (a) Hezbollah’s choice of retaliation domain (Israel proper vs. maritime vs. Gulf), and (b) whether Washington tightens or relaxes constraints on Israeli operations. **[VERIFIED]** ([apnews.com](https://apnews.com/article/303de2f806c493917150e9443ab99c03?utm_source=openai))  
-- **Nuclear “visibility restoration” as a trigger event:** Any announcement of resumed inspections/remote monitoring (or an explicit Iranian refusal) would be a major probability-mover. **[VERIFIED]** ([apnews.com](https://apnews.com/article/28da35ab9a372494337a471fb0fa6048?utm_source=openai))
+## Watch items (not yet new tracked outcomes)
+- **Third-party incident investigation risk:** If Kuwait or other GCC states push for a formal inquiry into the airport strike (or air-defense intercept logs), the results—whatever they show—could become a **new escalation trigger** (retaliation legitimacy, basing politics, air-defense posture changes). This is emerging, not confirmed. **[UNCONFIRMED]** (watch for official Kuwaiti steps)
+
+---
+
+### Bottom line (today)
+No major kinetic “new front” surfaced in open reporting, but the **Kuwait attribution battle sharpened** with an explicit U.S. denial, and **Lebanon is increasingly framed as a blocker** to winding down the wider Iran war—nudging probabilities modestly toward a **sustained campaign** rather than a de-escalatory taper. ([chosun.com](https://www.chosun.com/english/world-en/2026/06/05/K4A5YOPF7VBG3D7LQHTBMHK7TA/?utm_source=openai))
 
 ## Sources
-- [Israel strikes southern Lebanon after evacuation warnings to several villages](https://apnews.com/article/303de2f806c493917150e9443ab99c03?utm_source=openai)
-- [UN nuclear watchdog says it's been unable to inspect Iranian facilities](https://apnews.com/article/28da35ab9a372494337a471fb0fa6048?utm_source=openai)
+- [IRGC: Malfunctioning US Patriot, not Iranian missile, hit Kuwait airport](https://www.presstv.ir/Detail/2026/06/04/769804/Iran-IRGC-malfunctioning-US-Patriot-Kuwait-airport?utm_source=openai)
+- [Kuwait Airport Drone Attack Sparks Iran-U.S. Dispute](https://www.chosun.com/english/world-en/2026/06/05/K4A5YOPF7VBG3D7LQHTBMHK7TA/?utm_source=openai)
+- [Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war - Internazionale](https://www.internazionale.it/ultime-notizie-reuters/2026/06/05/lebanon-ceasefire-raises-hopes-of-progress-for-iran-deal?utm_source=openai)
+- [Hezbollah rejects Lebanon ceasefire as Israeli strikes kill four - ABC News](https://www.abc.net.au/news/2026-06-05/hezbollah-rejects-latest-lebanon-israel-ceasefire-agreement/106762184?utm_source=openai)
+- [Hezbollah rejects Israel-Lebanon ceasefire terms](https://www.axios.com/2026/06/03/israel-lebanon-ceasefire-hezbollah-us?utm_source=openai)
+- [UN nuclear watchdog says it has been unable to inspect Iranian facilities: report - DAWN.COM](https://www.dawn.com/news/amp/2005387?utm_source=openai)
