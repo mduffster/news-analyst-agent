@@ -4,10 +4,11 @@ import tempfile
 import unittest
 from html.parser import HTMLParser
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import AsyncMock, patch
 from urllib.parse import urlsplit
 
-from app import build, pipeline
+from app import build, pipeline, providers
 from app.config import settings
 from app.providers import ProviderResult
 
@@ -20,6 +21,18 @@ class Links(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == "a":
             self.hrefs.extend(value for key, value in attrs if key == "href")
+
+
+class ProviderReportTests(unittest.IsolatedAsyncioTestCase):
+    async def test_title_is_preserved_when_report_has_no_preamble(self):
+        report = "# Report title\n\n## September 24, 2026\n\nAnalysis."
+        for prefix in ("", "\n  ", "Here is the report:\n"):
+            with self.subTest(prefix=prefix), patch.object(providers.anthropic, "AsyncAnthropic") as client:
+                client.return_value.messages.create = AsyncMock(return_value=SimpleNamespace(
+                    content=[SimpleNamespace(type="text", text=prefix + report)]
+                ))
+                result = await providers.call_claude("system", "user")
+                self.assertEqual(result.content.strip(), report)
 
 
 class SiteRecoveryTests(unittest.TestCase):

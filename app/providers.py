@@ -43,7 +43,7 @@ async def call_claude(system_prompt: str, user_message: str) -> ProviderResult:
 
     # Strip CoT preamble before first heading
     heading_pos = content_text.find("\n#")
-    if heading_pos > 0:
+    if heading_pos > 0 and not content_text.lstrip().startswith("#"):
         content_text = content_text[heading_pos + 1:]
 
     return ProviderResult(
