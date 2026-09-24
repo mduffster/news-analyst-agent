@@ -151,6 +151,8 @@ async def generate_updates(
     for name, result in zip(tasks.keys(), raw_results):
         if isinstance(result, Exception):
             print(f"  [ERROR] {name}: {result}")
+        elif not result.content.strip():
+            print(f"  [ERROR] {name}: returned an empty report")
         else:
             results[name] = result
 
@@ -159,8 +161,11 @@ async def generate_updates(
         _save_report(update_dir / f"{name}.md", result)
 
     if len(results) < 2:
-        print("  Skipping synthesis (need at least 2 provider results)")
-        return
+        raise RuntimeError(
+            f"{topic_slug}: synthesis unavailable; received {len(results)} of "
+            f"{len(tasks)} provider reports (need at least 2). "
+            "Any successful reports have been saved."
+        )
 
     # Synthesize with retry for rate limits
     synth_role = _read(PROMPTS / "synthesis_role.md")
@@ -190,6 +195,8 @@ async def generate_updates(
         print(f"  Calling synthesis now...", flush=True)
         try:
             synth_result = await providers.call_synthesis(synth_system, synth_user)
+            if not synth_result.content.strip():
+                raise RuntimeError(f"{topic_slug}: synthesis returned an empty report")
             _save_report(update_dir / "synthesis.md", synth_result)
             print("  Update complete.")
             return
@@ -204,9 +211,13 @@ async def generate_updates(
 
 async def generate_all_updates(date_str: str | None = None) -> None:
     """Generate updates for all active topics."""
+    failures = []
     for topic_dir in sorted(TOPICS.iterdir()):
         if topic_dir.is_dir() and (topic_dir / "topic_brief.md").exists():
             try:
                 await generate_updates(topic_dir.name, date_str)
             except Exception as e:
                 print(f"  [ERROR] {topic_dir.name}: {e}")
+                failures.append(topic_dir.name)
+    if failures:
+        raise RuntimeError(f"Daily updates incomplete for: {', '.join(failures)}")

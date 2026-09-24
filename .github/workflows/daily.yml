@@ -25,7 +25,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -v
+
       - name: Generate daily updates
+        id: generate
+        continue-on-error: true
         run: python run.py update
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -48,3 +53,9 @@ jobs:
           path: site/
 
       - uses: actions/deploy-pages@v4
+
+      - name: Flag incomplete updates
+        if: always() && steps.generate.outcome == 'failure'
+        run: |
+          echo "::error::Report generation was incomplete. Check the Generate daily updates step for provider errors."
+          exit 1

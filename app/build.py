@@ -261,6 +261,15 @@ def _provider_nav(current: str, names: list[str], path_prefix: str) -> str:
     return '<div class="report-nav">' + "".join(links) + "</div>"
 
 
+def _available_reports(directory: Path) -> list[str]:
+    """List readable reports in display preference order."""
+    return [
+        name for name in ("synthesis", "claude", "gpt", "gemini")
+        if (path := directory / f"{name}.md").is_file()
+        and path.read_text(encoding="utf-8").strip()
+    ]
+
+
 def _build_sidebar(slug: str, title: str, update_dates: list[str], primers_dir: Path, updates_dir: Path, current_date: str | None = None) -> str:
     """Build the right sidebar with archive links."""
     parts = ['<aside class="sidebar">']
@@ -280,11 +289,14 @@ def _build_sidebar(slug: str, title: str, update_dates: list[str], primers_dir: 
     if update_dates:
         parts.append("<h4>Updates</h4><ul>")
         for d in update_dates:
+            available = _available_reports(updates_dir / d)
+            if not available:
+                continue
             active = " <strong>&larr;</strong>" if d == current_date else ""
-            line = f'<li><a href="{d}/synthesis.html">{d}</a>{active}'
+            line = f'<li><a href="{d}/{available[0]}.html">{d}</a>{active}'
             plinks = []
-            for name in ("claude", "gpt"):
-                if (updates_dir / d / f"{name}.md").exists():
+            for name in available:
+                if name != "synthesis":
                     plinks.append(f'<a href="{d}/{name}.html">{_provider_label(name)}</a>')
             if plinks:
                 line += ' <span class="provider-links">' + " | ".join(plinks) + "</span>"
@@ -352,30 +364,29 @@ def _build_topic(slug: str, title: str):
     update_dates = []
     if updates_dir.exists():
         update_dates = sorted(
-            [d.name for d in updates_dir.iterdir() if d.is_dir()], reverse=True
+            [d.name for d in updates_dir.iterdir() if d.is_dir() and _available_reports(d)],
+            reverse=True,
         )
 
-    # --- Topic index: render latest synthesis inline ---
-    latest_content = ""
-    latest_date = None
+    # Prefer synthesis, but keep the latest available report and archive visible.
     if update_dates:
         latest_date = update_dates[0]
-        synth_path = updates_dir / latest_date / "synthesis.md"
-        if synth_path.exists():
-            latest_content = synth_path.read_text(encoding="utf-8")
-
-    if latest_content:
-        providers_available = [
-            n for n in ("synthesis", "claude", "gpt")
-            if (updates_dir / latest_date / f"{n}.md").exists()
-        ]
-        nav = _provider_nav("synthesis", providers_available, f"{latest_date}/")
-        nav = nav.replace(f'href="{latest_date}/synthesis.html"', 'href="#"')
+        providers_available = _available_reports(updates_dir / latest_date)
+        selected = providers_available[0]
+        latest_content = (updates_dir / latest_date / f"{selected}.md").read_text(encoding="utf-8")
+        nav = _provider_nav(selected, providers_available, f"{latest_date}/")
+        nav = nav.replace(f'href="{latest_date}/{selected}.html"', 'href="#"')
+        notice = ""
+        if selected != "synthesis":
+            notice = (
+                f'<p role="status">Synthesis is unavailable for {latest_date}. '
+                f'Showing the {_provider_label(selected)} report.</p>'
+            )
 
         sidebar = _build_sidebar(slug, title, update_dates, primers_dir, updates_dir, latest_date)
         report_html = _md_to_html(latest_content)
 
-        content = f'<div class="layout"><div>{nav}{report_html}</div>{sidebar}</div>'
+        content = f'<div class="layout"><div>{notice}{nav}{report_html}</div>{sidebar}</div>'
     else:
         content = f"<h1>{title}</h1><p>No updates yet.</p>"
 
@@ -421,10 +432,7 @@ def _build_topic(slug: str, title: str):
     # --- Update pages ---
     for d in update_dates:
         day_dir = updates_dir / d
-        providers_available = [
-            n for n in ("synthesis", "claude", "gpt")
-            if (day_dir / f"{n}.md").exists()
-        ]
+        providers_available = _available_reports(day_dir)
 
         for name in providers_available:
             md_path = day_dir / f"{name}.md"
