@@ -1,202 +1,130 @@
-# Daily Synthesis: US-Israel-Iran Conflict
-## September 24, 2026 — Day 209
+# US-Israel-Iran Conflict: Diplomatic Opening, Persistent Regional Risks
+
+## September 24, 2026
+
+The most significant diplomatic engagement of the seven-month war occurred this week when US and Iranian officials held mediated talks at UNGA, producing Iran's detailed 60-day ceasefire proposal. The talks were conducted through Qatari, Pakistani, and Egyptian intermediaries who shuttled between delegations; whether any direct US-Iranian contact occurred remains disputed. The proposal represents a genuine opening, but the fundamental precondition gap persists: Tehran demands Washington lift the naval blockade before substantive concessions; Washington demands Iranian demonstrations of goodwill first. Meanwhile, the Senate's rejection of a war powers resolution by a single vote leaves that particular congressional challenge unsuccessful despite visible dissent within the president’s party. Houthi attacks on Yanbu underscore persistent threats to Saudi Arabia's alternative oil export route. The diplomatic window is real but narrow, with underlying conflict dynamics unchanged.
 
 ---
 
-## Executive Summary
+## UNGA Diplomacy: Mediated Engagement and Iran's Ceasefire Proposal
 
-The UN General Assembly week produced the most substantive diplomatic engagement since the June MoU collapsed, with US and Iranian officials conducting mediated talks and Iran presenting a detailed ceasefire roadmap. However, cross-cutting dynamics—Houthi missile attacks on Saudi Arabia, Netanyahu's hardline UN speech, and a narrowly defeated Senate War Powers vote—illustrate how multi-theater this conflict has become. The diplomatic window is real but narrow, with Iran imposing a 4-5 day deadline that expires around September 27-28.
+On Tuesday, US Special Envoy Steve Witkoff described lengthy talks conducted through mediators who shuttled between delegations [OFFICIAL] ([Axios](https://www.axios.com/2026/09/22/unga-iran-us-trump-war)). His account establishes the official description of the format; it does not independently settle whether any direct contact also occurred. President Trump told reporters that US officials had a "very good" three-hour meeting with Iranian leaders, describing it as "productive" [OFFICIAL] ([Axios](https://www.axios.com/2026/09/22/unga-iran-us-trump-war)). Both Witkoff and Jared Kushner participated, indicating White House priority.
 
----
+The distinction between "mediated" and "direct" talks carries practical significance for assessing the depth of engagement, but remains [DISPUTED]. Trump's characterization of a "meeting" may refer to the broader session rather than direct contact. Multiple outlets reported the talks, but all trace to the same official statements; this represents one source reported widely rather than independent corroboration.
 
-## Key Developments
+This was reported as the first meeting between US and Iranian officials since mid-June [REPORTED] ([Axios](https://www.axios.com/2026/09/22/unga-iran-us-trump-war)). The earlier Islamabad Memorandum, signed June 17, had established a 60-day framework to negotiate final ceasefire terms, but collapsed after attacks by both sides on July 8 [REPORTED] ([Wikipedia](https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire)). The UNGA engagement therefore represents an attempt to restart a process that has already failed once under similar conditions.
 
-### 1. US-Iran Diplomatic Engagement [VERIFIED]
+**Iran's Proposal:** Tehran presented Washington with what regional sources describe as a "roadmap" including a region-wide ceasefire of up to 60 days, phased reopening of the Strait of Hormuz, a halt to attacks on Arab neighbors, and a timetable for broader negotiations [REPORTED] ([The National](https://www.thenationalnews.com/news/mena/2026/09/23/iran-us-meeting-new-york/), [Gulf News](https://gulfnews.com/world/mena/irans-pezeshkian-vows-never-to-bend-at-the-knee-at-un-as-us-iran-talks-60-day-ceasefire-roadmap-and-hormuz-blockade-take-centre-stage-1.500685870)). Iranian officials have previously claimed Hormuz could reopen "within seven days" if Washington meets Tehran's conditions.
 
-The US and Iran held indirect talks for three hours on Tuesday. US special envoys Steve Witkoff and Jared Kushner met Iranian Foreign Minister Abbas Araghchi, with Trump calling it a "very good" and "very productive" meeting.
+References in some reporting to a "4-5 day deadline" for US response cannot be independently confirmed and should be treated as [UNCONFIRMED]. The available reporting is insufficient to treat this deadline as firm; confirmed negotiating terms will be more informative than a countdown built on an uncertain deadline.
 
-US special envoy Steve Witkoff said mediators had "shuttled between" the American and Iranian delegations throughout Tuesday, stating they "successfully completed a round of discussions that we hope will prove constructive and promising. The mediators will continue their work."
+The proposal's significance lies in its apparent detail—a phased timeline rather than maximalist demands—but the sequencing disagreement that collapsed the June framework persists. Announcing negotiations is not the same as implementing them. The June MoU also appeared promising until both sides resumed hostilities within three weeks. Whether UNGA attention creates sufficient political pressure to bridge the precondition gap, or merely provides diplomatic cover while military operations continue, remains uncertain. The underlying incentive structures have not visibly changed: Iran maintains leverage through chokepoint disruption; Washington maintains leverage through the naval blockade; neither has signaled willingness to move first.
 
-US and Iranian officials held talks on the sidelines of the UN General Assembly in New York, mediated by Qatar, Pakistan and Egypt.
+The most informative next signal would be an agreed sequence of reciprocal actions: which restriction is eased first, what the other side must do in return, and how compliance is checked. A proposal can be detailed while leaving these implementation questions unresolved. Small, observable steps could reduce the political cost of moving first; declarations that demand the other side surrender its leverage before receiving anything would preserve the impasse. This distinction should drive the assessment more than the duration of a meeting or optimistic descriptions of its atmosphere.
 
-Reuters reported that a Qatari proposal for a common security framework involving Iran and Gulf states was among the issues under consideration, with one regional source saying Tehran was reviewing it.
-
-**Assessment:** This is the first structured face-to-face diplomatic engagement since the war began. The use of multiple mediators (Qatar, Pakistan, Egypt) suggests both sides are seeking maximum flexibility while maintaining deniability.
-
-### 2. Iran's 60-Day Ceasefire Roadmap [REPORTED]
-
-Iran has now put a written road map on the table — a regionwide ceasefire of up to 60 days, a phased reopening of the strait, an end to the blockade, a halt to attacks on Arab neighbours and an agreed timeline for substantive talks while the ceasefire runs — and it is the first Iranian proposal of the war that describes a sequence rather than a list of preconditions.
-
-The Iranian road map is "a sort of detailed agenda for future, substantive negotiations to end the conflict and reach a comprehensive resolution to differences with Washington," according to a source.
-
-"Until our conditions are met, the Strait of Hormuz will not be opened and we will not negotiate," Rezaei said, according to state-run IRNA. He said Washington must act first to restore the trust of the Iranian people before Tehran would consider negotiations.
-
-Donald Trump has ruled out lifting the blockade before Iran demonstrates sufficient goodwill.
-
-**Critical Deadline:** Supreme National Security Council secretary Mohsen Rezaei has given Washington 4-5 days to accept Tehran's terms, meaning the deadline expires around September 27-28.
-
-### 3. Netanyahu UN Address [VERIFIED]
-
-In his September 24, 2026, address to the UN General Assembly, Prime Minister Benjamin Netanyahu defended Israel's strikes on Iran and its conduct in Gaza, describing the years since October 7 as a seven-front war. Recalling the Six-Day War and his brother Yoni's role in the Entebbe rescue, he repeated the refrain, "We have no other choice." Delegates staged a walkout as the speech began, prompting Netanyahu to invite any remaining "moral cowards" to leave.
-
-Netanyahu lambasted Tehran, dramatically claiming if he hadn't attacked Iran, "we'd all be dead." He also persisted in his bitter feud with New York Mayor Zohran Mamdani, accusing him of antisemitism and distorting facts about Israel.
-
-Netanyahu's UN speech forecast the fall of the Iranian regime, with intelligence estimating the collapse could come in the first half of 2027.
-
-"Netanyahu is going into his UNGA speech with not one but both eyes focused firmly on the upcoming Israeli election," analyst Nimrod Goren said. "The speech is usually treated in Israel as a major event, receiving broad coverage and dominating the news cycle. Netanyahu will likely try to leverage this to bolster his image as a close ally of the US and to talk up the threat posed by Iran."
-
-### 4. Senate War Powers Vote [VERIFIED]
-
-The Senate rejected a resolution aimed at limiting President Trump's war powers in Iran on Thursday. In a 49 to 50 vote, four Republicans — Sens. Susan Collins of Maine, Lisa Murkowski of Alaska, Rand Paul of Kentucky and Thom Tillis of North Carolina — joined Democrats in voting to advance the measure. Sen. John Fetterman of Pennsylvania was the sole Democrat to oppose.
-
-The measure voted on Thursday — a "concurrent resolution" — does not carry the force of law and is never signed by the president, making the vote mostly symbolic.
-
-The vote came as more Republicans have begun to distance themselves from President Trump over the war. Among those speaking out in recent days is Rep. Ashley Hinson, R-Iowa, who is in a tight race for an open Senate seat in her state. In a social media post this week, Hinson wrote, "Iowans are being squeezed and shouldn't have to foot the bill at the pump or the checkout line for the war in Iran."
-
-Sen. Angela Alsobrooks (Maryland) did not vote due to an urgent family matter.
-
-### 5. Houthi Attacks on Saudi Arabia [VERIFIED]
-
-Saudi Arabia came under attack from the Houthis again on Thursday, with the kingdom saying it intercepted missiles fired toward the Red Sea port of Yanbu and city of Taif. Saudi-backed coalition forces say they intercepted six ballistic missiles and that any escalation from the Iran-backed militants must be "dealt with firmly."
-
-Yanbu is Saudi Arabia's main Red Sea oil port, where millions of barrels a day are usually loaded. It has become the main route out for Saudi oil tankers avoiding the Strait of Hormuz, which has been blockaded by Iran.
-
-Yemen's Houthi group said it had attacked Saudi military sites in Jazan, while Saudi Arabia reported intercepting missiles launched toward the Red Sea port of Yanbu.
+Compared with September 17, when the prior synthesis treated UNGA meetings largely as prospective decision points, there is now reported engagement and a specific proposal to assess. That is a meaningful procedural advance. It is not yet evidence that the parties have accepted the same terms, that other armed actors would comply, or that commercial shipping conditions have materially improved. Those unresolved tests connect last week’s diplomatic expectations with this week’s more concrete, but still unimplemented, proposal.
 
 ---
 
-## Maritime & Economic Situation
+## Senate War Powers Vote: Dissent Without a Successful Resolution
 
-### Strait of Hormuz
+The Senate rejected a resolution aimed at limiting President Trump's war powers on Thursday by a 49-50 vote [VERIFIED] ([CBS News](https://www.cbsnews.com/news/senate-iran-war-powers-resolution-vote/)). Four Republicans—Susan Collins (Maine), Lisa Murkowski (Alaska), Rand Paul (Kentucky), and Thom Tillis (North Carolina)—joined Democrats in supporting the measure. Senator John Fetterman (Pennsylvania) was the sole Democrat to oppose. Senator Angela Alsobrooks (Maryland) did not vote due to what her spokesperson described as "an urgent family matter" [VERIFIED] ([CNBC](https://www.cnbc.com/2026/09/24/iran-war-powers-senate-vote-fuel.html)).
 
-Preliminary data showed that 10 cargo ships crossed the Strait of Hormuz on Wednesday, up from seven the previous day. The figure remained below the 10-day moving average of about 17 vessels. The data may be revised because some vessels switch off their transponders during voyages.
+The practical effect requires care. [CNBC](https://www.cnbc.com/2026/09/24/iran-war-powers-senate-vote-fuel.html) describes the measure as a concurrent resolution, while [CBS News](https://www.cbsnews.com/news/senate-iran-war-powers-resolution-vote/) discusses longstanding disputes over the mechanism’s ability to bind the executive. A vote on this measure should therefore not be equated with a settled legal determination about the war or an automatic operational order.
 
-US Central Command said its forces had redirected 115 commercial vessels as of September 23 while enforcing what it calls America's "steel wall blockade".
+Alsobrooks’ absence alone also does not establish what the result would have been under a different voting scenario. The observed result is narrower: this attempt to advance the resolution failed despite four Republican defections.
 
-### Oil Prices
-
-Earlier Thursday, Brent crude surged about 5% to a session high of $108.23 after Iran-allied Houthi militants in Yemen fired a barrage of missiles at Saudi Arabia.
-
-Crude oil traded near $94 per barrel on Thursday, trimming a surge that peaked at $97 amid signs that the US and Iran could be working to re-establish exports from the Persian Gulf. Reports suggested that US and Iranian negotiators were exploring a deal that would lift naval blockades against tankers crossing the Strait of Hormuz and ease US sanctions on the Iranian economy.
-
-JPMorgan estimated last Friday that total oil flows from the Middle East stood at 17 million barrels per day, or more than 70% of the 2025 average.
-
-The prolonged halt of tanker flows from the region forced major OPEC members to cut oil production, with Saudi output recently dropping to its lowest level since 1990.
+The vote provides a concrete measure of congressional dissent. The four Republican defections and seven House Republicans joining a separate resolution last week indicate growing unease within the GOP about the war's trajectory. These votes do not by themselves establish whether future appropriations, binding conditions, or electoral pressure will alter the administration’s decisions. The failure of this particular resolution removes one potential source of legislative pressure; it does not remove all constraints or establish that Congress lacks authority to impose them through other mechanisms.
 
 ---
 
-## Bab al-Mandab / Yemen Theater [CRITICAL]
+## Oil Infrastructure: Pipeline Restart and Persistent Vulnerability
 
-The Houthi threat to Saudi Arabia's Red Sea export route is emerging as a key spoiler variable for any Hormuz-focused deal:
+**East-West Pipeline Restoration:** Saudi Arabia restarted operations at its East-West Pipeline on September 22 and could resume exports from the Red Sea port of Yanbu, according to sources briefed on the matter [REPORTED] ([Reuters via multiple outlets](https://www.hydrocarbonprocessing.com/news/2026/09/saudi-arabia-restarts-east-west-oil-pipeline/)). Drone attacks had forced shutdown on September 13, halting crude loadings. A security source indicated reaching 40% capacity will take several days, with full restoration requiring six to eight weeks. Satellite imagery and oil industry sources reviewed by Reuters identified damage at three of the pipeline's pumping stations out of 11 total stations and two pressure relief stations.
 
-The fighting between Saudi Arabia and the Houthis threatens to squeeze shipping through the Bab al-Mandab strait, a critical route of the Arabian Peninsula for oil and global trade. It also comes at a time when the Iran war has nearly halted shipments through the Strait of Hormuz, a key waterway that moved about one-fifth of the world's oil supply before the war.
+The pipeline's importance has grown dramatically since Iran's closure of the Strait of Hormuz: Saudi Arabia has been using it to reroute around 4 million barrels per day—roughly 4% of global supply—to Yanbu. This creates a single alternative chokepoint now facing direct attack.
 
-Despite disruptions, the Bab el-Mandeb remains the only viable oil route, with around 30 tankers near the Saudi port city of Yanbu currently within Houthi strike range.
+**Yanbu Attack (September 24):** Saudi Arabia reported intercepting six ballistic missiles fired by Houthis toward Taif province and the Yanbu area [OFFICIAL] (Saudi coalition spokesman Major General Turki al-Malki, via [Deccan Herald](https://www.deccanherald.com/world/middle-east/houthis-claim-attack-on-riyadh-aramco-facilities-in-yanbu-4158792)). The reporting cited here does not establish independent verification of complete interception. Repetition of the coalition statement by several outlets does not resolve that gap.
 
----
+The reported targeting of Yanbu two days after the pipeline restart announcement is consistent with an effort to maintain pressure on Saudi Arabia’s alternative export route. It does not establish that these missiles caused damage or identify responsibility for earlier pipeline strikes.
 
-## What Changed in Last 24 Hours
+**Oil Prices:** Brent crude rose to $106.39/barrel on September 24, up 3.21% from the previous day, with a 21.90% increase over the past month and 55.13% year-over-year [VERIFIED] ([Trading Economics](https://tradingeconomics.com/commodity/brent-crude-oil)). WTI crude reached $94.76/barrel, having peaked at $97 before trimming gains amid signs of potential diplomatic progress [VERIFIED] ([Trading Economics](https://tradingeconomics.com/commodity/crude-oil)).
 
-| Development | Significance |
-|-------------|--------------|
-| **First structured US-Iran talks** | Most substantive diplomatic engagement since June MoU |
-| **Iran's written roadmap** | First Iranian proposal describing a sequence rather than preconditions |
-| **Rezaei's 4-5 day deadline** | Creates decision point expiring Sept 27-28 |
-| **Senate War Powers vote fails 49-50** | Removes immediate domestic pressure on Trump |
-| **Netanyahu UN speech** | Intelligence-backed prediction of regime collapse by mid-2027 |
-| **New Houthi salvo at Yanbu** | Demonstrates multi-theater nature of conflict persists |
+**Shipping Data:** [REPORTED] Preliminary data showed 10 cargo ships crossed the Strait of Hormuz on Wednesday, up from seven the previous day but below the 10-day moving average of approximately 17 vessels. [OFFICIAL] US Central Command reported redirecting 115 commercial vessels as of September 23 while enforcing the blockade, according to [Siasat](https://www.siasat.com/iran-offers-60-day-ceasefire-plan-as-hormuz-tensions-remain-high-3547352/).
+
+Understanding the oil situation requires distinguishing several factors: pipeline capacity (partially restored but not at full throughput), shipping access through Hormuz (severely constrained by US blockade), shipping access through Bab al-Mandab (threatened by Houthi territorial control), and ongoing attack risk (demonstrated by Yanbu strike). Even with the East-West pipeline operating, Saudi export capacity remains constrained and vulnerable compared to pre-war conditions.
+
+A useful test is whether restored capacity becomes sustained, realized exports. A pumping station returning to service is one step; tankers loading, sailing, and reaching buyers without renewed disruption are separate steps. Higher pipeline throughput could ease supply pressure while shipping risk remains elevated, so those signals need not move together. Likewise, the Brent and WTI quotations above describe different benchmarks and observation points. Their price gap should not be presented as an intraday fall in one oil price, and any claim that diplomacy caused a particular price move requires more evidence than the two events occurring close together.
 
 ---
 
-## Outcome Tracker
+## Houthi Territorial Expansion and Red Sea Control
 
-| Outcome | Probability | Change | Rationale |
-|---------|-------------|--------|-----------|
-| **Negotiated ceasefire by end of 2026** | 32% | — | Iran's detailed roadmap is most substantive since June MoU; however, fundamental sequencing gaps remain (US wants action before easing, Iran wants easing before action). Rezaei deadline creates pressure but also escalation predicate. |
-| **Sustained air/sea campaign through mid-2027** | 43% | — | Senate vote failure, continued Houthi attacks, and Netanyahu's maximalist speech suggest structural barriers to de-escalation. Multi-theater dynamics complicate any Hormuz-only deal. |
-| **Prolonged regional entanglement** | 55% | ↑2% | Houthi attacks on Yanbu demonstrate that even if Hormuz reopens, the Bab al-Mandab theater operates semi-independently. Saudi Red Sea route vulnerability strengthens Iran's negotiating position but complicates resolution. |
-| **Major escalation (ground war/nuclear use)** | 10% | ↓2% | Both sides signaling interest in talks; Iranian fire pause now in 16th day. |
-| **Iranian regime collapse by mid-2027** | 16% | — | Netanyahu's intelligence-backed prediction; economic pressure intensifying but regime consolidation under IRGC continues. |
+Houthi fighters have significantly expanded their control over Yemen's western coast in September 2026. After capturing the port of Mocha on September 10, they extended control the following day to Mayyun (Perim Island) in the Bab al-Mandab Strait, the Hanish Islands, Dhubab, and six districts in Taiz and Hodeidah governorates—approximately 5,400 square kilometers [REPORTED] ([Al Jazeera Centre for Studies](https://studies.aljazeera.net/en/policy-briefs/expansion-and-exposure-paradox-houthi-control-bab-al-mandeb)).
 
----
+This territorial expansion has strategic significance because Saudi seaborne crude exports through Bab al-Mandab were eight times higher between March and mid-July 2026 compared to the same period in 2025, reflecting the shift away from Hormuz routes [REPORTED] (Al Jazeera Centre for Studies). However, territorial holdings around the strait do not establish complete control over shipping. Houthis can threaten vessels and create risk premiums that deter commercial traffic, while the degree to which commercial transit is actually prevented requires separate evidence about shipping movements and attacks. The situation creates a contested chokepoint rather than a closed one.
 
-## Watch Items (Next 24-72 Hours)
+US officials met Houthi representatives at the US embassy in Muscat over the weekend [REPORTED] ([Al Jazeera](https://www.aljazeera.com/news/2026/9/18/as-houthis-grab-bab-al-mandeb-us-appears-willing-to-watch-from-sidelines)). This reported engagement suggests that the diplomatic effort extends beyond the direct US-Iran channel; it does not establish agreement on the Red Sea dispute. The substance of those talks has not been disclosed.
 
-1. **Rezaei deadline response** — Does Trump or a senior official respond before Sept 27-28?
-2. **Second round of talks** — Confirmation of continued dialogue in New York
-3. **Damage assessment from Houthi attacks** — Any hits on Yanbu facilities or purely intercepted?
-4. **CAPE DAO attribution** — Who was responsible for the torpedo attack off Musandam?
-5. **Iran hardliner backlash** — IRGC response to Araghchi meeting; impeachment threats
-6. **Oil price volatility** — Whether prices stabilize near $94 or resume climb toward $108
+With Hormuz under US blockade and Bab al-Mandab under Houthi threat, Saudi Arabia's oil export options have narrowed dramatically. This dynamic may strengthen Iran’s bargaining position by widening the costs of continued conflict. It also creates a complication: an agreement between Washington and Tehran would still need to translate into changed behavior by other actors. Iranian influence should not be treated as proof that every Houthi action can be switched off through a bilateral deal.
 
 ---
 
-## Assessment
+## Netanyahu at UNGA and Regional Political Signals
 
-**[ANALYSIS]** The diplomatic opening at UNGA is genuine but fragile. Iran has offered its most detailed proposal since the June MoU—a 60-day ceasefire with phased Hormuz reopening—representing a shift from preconditions to sequenced bargaining. However, the Rezaei deadline (expiring ~Sept 27-28) creates a double-edged dynamic: it forces Washington to engage during General Assembly week, but also establishes a public predicate for resumed fire if ignored.
+In his September 24 address to the UN General Assembly, Prime Minister Benjamin Netanyahu defended Israel's strikes on Iran, describing the post-October 7 period as a "seven-front war." Delegates staged a walkout as the speech began; Netanyahu described those leaving as "moral cowards" [VERIFIED] ([PBS](https://www.pbs.org/newshour/amp/world/watch-israeli-prime-minister-netanyahu-addresses-2026-un-general-assembly), [Jewish Virtual Library](https://jewishvirtuallibrary.org/politics-wing/peace-process/international-relations-and-aid-international-statements-and-resolutions/prime-minister-netanyahus-2026-un-general-assembly-speech)).
 
-The fundamental impasse remains: Trump has ruled out lifting the blockade before Iran demonstrates sufficient goodwill, while Rezaei insists "Until our conditions are met, the Strait of Hormuz will not be opened and we will not negotiate."
+The reported itinerary allowed approximately six hours in the US, with no meeting planned with President Trump [REPORTED] ([Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-909521)). The absence of a Trump meeting during Netanyahu's brief visit is notable, though its significance requires caution. It may indicate Washington's priority sequencing—engaging Gulf states and Iran before Israel coordination—or simply reflect scheduling logistics during a crowded UNGA week. The lack of a meeting alone does not establish a policy position.
 
-The Houthi threat to Yanbu is the underreported variable. Saudi Arabia's Red Sea export route—its lifeline after Hormuz closed—is now under persistent attack. This creates pressure for any deal to address Yemen, not just Hormuz, but also gives Iran additional leverage through its proxy. "You could see that the Houthis are determining the timelines and the levels of the escalation," analyst Yasmeen al-Eryani noted. "So, depending on the current situation, it seems that the Houthis are the ones in control."
+Reports that Netanyahu predicted Iranian regime collapse by mid-2027 cannot be confirmed from available speech excerpts and should be treated as [UNCONFIRMED].
 
-The conflict has become multi-nodal: Hormuz, Bab al-Mandab, Saudi energy infrastructure, and domestic US politics all constitute independent pressure points. Even if the Hormuz track advances, spoiler dynamics from the Yemen theater can sustain risk premia and complicate de-escalation. The next 72 hours will reveal whether the Rezaei deadline is a negotiating device or an escalation trigger.
+Within Iran, hardliner criticism of Foreign Minister Araghchi has emerged in parliamentary forums, though the IRGC provided political cover before the UNGA meeting by framing talks as "another facet of war" [REPORTED] (sourcing limited). Such domestic political signals could constrain implementation of any negotiated agreement, but do not by themselves prove that Tehran's diplomatic engagement is insincere. The stronger test would be whether criticism changes the negotiating mandate, blocks a concrete concession, or produces a break in the talks. The evidence here supports watching for those changes rather than assuming they have already happened.
+
+---
+
+## Primary Outcome Assessment
+
+**Horizon: Through November 23, 2026 (60 days from September 24)**
+
+*These scenarios use a reset framework with new definitions and a fixed endpoint. No direct percentage-point comparison with the September 17 assessment is claimed. These are analytical estimates reflecting current information, not measured probabilities.*
+
+| Scenario | Probability | Reasoning |
+|----------|-------------|-----------|
+| **Continuation at roughly current intensity** | 45% | Baseline: air/sea campaign, Hormuz blockade, and proxy attacks persist without major change; diplomatic track produces talks but not implementation; neither side achieves decisive leverage |
+| **Sustained widening beyond current baseline** | 35% | Further geographic spread or a sustained increase in intensity beyond the September 24 baseline; additional infrastructure attacks or wider proxy involvement could drive this pathway |
+| **Durable ceasefire or sustained de-escalation** | 12% | UNGA creates pathway; Iran's detailed proposal on table; Trump's "momentum" language suggests interest; however, same precondition gap that collapsed June framework persists |
+| **Major ground operations or catastrophic escalation** | 8% | Neither side currently appears to be seeking major expansion; costs and risks of ground war remain prohibitive; but failed negotiations could trigger escalatory spiral |
+
+*Classification logic: Major escalation (8%) is assessed first as it would supersede other scenarios at any point in the window. If no major escalation occurs, sustained widening (35%) is assessed next. If neither major escalation nor sustained widening occurs, durable ceasefire (12%) is assessed. Continuation (45%) represents the residual—current intensity persisting without major change in either direction. Scenarios are mutually exclusive and exhaustive; probabilities total 100%.*
+
+---
+
+## Watchlist
+
+**Substantive US response to Iran proposal:** Whether Washington engages with specific terms rather than restating preconditions will indicate if UNGA momentum can persist. Look for procedural next steps—working groups, technical discussions, intermediary shuttles—rather than just rhetorical openness.
+
+**Second UNGA meeting:** Trump indicated another meeting was scheduled "in the very near future." Whether Araghchi-Witkoff talks resume during the remaining UNGA diplomatic window would signal seriousness of the diplomatic track.
+
+**East-West pipeline throughput and attacks:** Progress toward 40% capacity and whether Houthi attacks disrupt operations will directly affect Saudi export capacity, oil prices, and Riyadh's urgency for conflict resolution.
+
+**Houthi follow-up operations:** Whether Thursday's Yanbu attack presages a sustained campaign against Saudi Red Sea infrastructure or was a one-off demonstration of capability.
+
+---
 
 ## Sources
-- [US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz | US-Israel war on Iran News | Al Jazeera](https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz)
-- [The Latest: Trump Says US and Iran Met for 3 Hours After His Threat During United Nations Speech](https://www.usnews.com/news/us/articles/2026-09-22/the-latest-trump-returns-to-un-at-moment-of-anxiety-about-iran-ai-and-future-of-world-body-itself)
-- [Key moments from the first day of UN General Assembly speeches | CNN](https://www.cnn.com/2026/09/22/world/live-news/un-general-assembly-trump)
-- [Iran's president blames U.S., Israel for global instability in defiant UN speech](https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html)
-- [UNGA live: Netanyahu defends Israel’s actions in Gaza war as he brings feud with NYC Mayor Mamdani to UN | CNN](https://edition.cnn.com/2026/09/24/world/live-news/un-general-assembly-netanyahu)
-- [Live updates: US and Iran hold lengthy meeting in New York as both sides seek to break deadlock | The National](https://www.thenationalnews.com/news/us/2026/09/23/live-un-general-assembly-2026-al-shara-pezeshkian/)
-- [September document](https://en.wikipedia.org/wiki/September_document)
-- [Can flurry of New York diplomacy lead to US-Iran diplomatic breakthrough? | US-Israel war on Iran News | Al Jazeera](https://www.aljazeera.com/news/2026/9/23/flurry-of-diplomacy-trumps-fiery-threats-us-iran-war-deal-still-elusive)
-- [American Delegate Walks Out of UNGA Speech As Iran's President Makes This Claim](https://townhall.com/news/cameron-arcand/2026/09/23/american-delegate-walks-out-of-unga-speech-as-irans-president-makes-this-claim-n2683471)
-- [Yemen’s Houthis report attack on Saudi oil tanker in Red Sea | US-Israel war on Iran News | Al Jazeera](https://www.aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship)
-- [Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh | Houthis News | Al Jazeera](https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh)
-- [Saudi Arabia says Houthis tried to attack its capital : NPR](https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital)
-- [Scores wounded as Iran-backed Houthis attack Saudi Arabia in major regional escalation | CNN](https://www.cnn.com/2026/09/08/middleeast/houthis-attack-saudi-arabia-yemen-intl-hnk)
-- [Saudi Arabia Intercepts Houthi Missiles Fired at Cities - Bloomberg](https://www.bloomberg.com/news/articles/2026-09-24/saudi-arabia-intercepts-houthi-missiles-fired-at-cities)
-- [2026 Houthi strikes on Israel](https://en.wikipedia.org/wiki/2026_Houthi_strikes_on_Israel)
-- [Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people](https://www.npr.org/2026/09/08/g-s1-142296/houthi-attacks-saudi-arabia)
-- [2026 in Saudi Arabia](https://en.wikipedia.org/wiki/2026_in_Saudi_Arabia)
-- [2022 Jeddah missile attack](https://en.wikipedia.org/wiki/2022_Jeddah_missile_attack)
-- [29 September 2024 Israeli attacks on Yemen](https://en.wikipedia.org/wiki/29_September_2024_Israeli_attacks_on_Yemen)
-- [UNGA live: Netanyahu defends Israel’s actions in Gaza war as he brings feud with NYC Mayor Mamdani to UN | CNN](https://www.cnn.com/2026/09/24/world/live-news/un-general-assembly-netanyahu)
-- [Netanyahu takes UN stage with one eye on Israel’s election | United Nations News | Al Jazeera](https://www.aljazeera.com/news/2026/9/24/netanyahus-un-speech-a-high-stakes-test-for-audiences-at-home)
-- [Israel's Netanyahu tells U.N. "we will continue to defend our state" as many leaders walk out - CBS News](https://www.cbsnews.com/news/netanyahu-un-speech-israel-criticism-mamdani-protests/)
-- [Prime Minister Netanyahu’s 2026 UN General Assembly Speech](https://jewishvirtuallibrary.org/politics-wing/peace-process/international-relations-and-aid-international-statements-and-resolutions/prime-minister-netanyahus-2026-un-general-assembly-speech)
-- [2024 visit by Benjamin Netanyahu to the United States](https://en.wikipedia.org/wiki/2024_visit_by_Benjamin_Netanyahu_to_the_United_States)
-- [General debate of the eightieth session of the United Nations General Assembly](https://en.wikipedia.org/wiki/General_debate_of_the_eightieth_session_of_the_United_Nations_General_Assembly)
-- [Sparta Speech](https://en.wikipedia.org/wiki/Sparta_Speech)
-- [Netanyahu UN Speech to Forecast Fall of Iranian Regime | Israel Hayom](https://www.israelhayom.com/2026/09/23/netanyahu-un-speech-iran-regime-fall-timeline/)
-- [Benjamin Netanyahu heads to UNGA with limited meetings, anti-Israel protests planned | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-909521)
-- [WATCH LIVE: Day 3 of the 2026 United Nations General Assembly | PBS News](https://www.pbs.org/newshour/world/watch-live-day-3-of-the-2026-united-nations-general-assembly)
-- [Senate Votes Down Iran War Powers Resolution After Fetterman Votes with GOP Majority | Democracy Now!](https://www.democracynow.org/2026/7/31/headlines/senate_votes_down_iran_war_powers_resolution_after_fetterman_votes_with_gop_majority)
-- [Iran war powers measure falls short in Senate, despite new GOP support - CBS News](https://www.cbsnews.com/news/senate-iran-war-powers-resolution-vote/)
-- [How every senator voted on the Iran war powers resolution - Washington Post](https://www.washingtonpost.com/politics/interactive/2026/09/24/how-every-senator-voted-iran-war-powers-resolution/)
-- [Iran war powers resolution fails in the Senate : NPR](https://www.npr.org/2026/09/24/nx-s1-5980318/senate-iran-war-powers-vote)
-- [Senate narrowly votes down resolution calling for end to Iran war](https://www.cnbc.com/2026/09/24/iran-war-powers-senate-vote-fuel.html)
-- [New: Iran War Powers Vote Fails in the Senate — Again](https://redstate.com/wardclark/2026/09/24/new-iran-war-powers-vote-fails-in-the-senate-again-n2207349)
-- [Press Releases](https://www.hickenlooper.senate.gov/?p=251986)
-- [Press Releases](https://www.hickenlooper.senate.gov/press_releases/hickenlooper-statement-on-upcoming-iran-war-powers-vote)
-- [Senate Republicans block war powers resolution on Iran](https://www.aljazeera.com/amp/video/newsfeed/2026/3/5/senate-republicans-block-war-powers-resolution-on-iran)
-- [June 27, 2025](https://www.wyden.senate.gov/news/press-releases/wyden-votes-for-iran-war-powers-resolution-to-prevent-war-without-congressional-approval)
-- [2026 Iran war fuel crisis](https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis)
-- [2026%E2%80%932028 world oil market chronology](https://en.wikipedia.org/wiki/2026%E2%80%932028_world_oil_market_chronology)
-- [Oil prices surge as US-Iran strikes intensify in Strait of Hormuz | Oil and Gas News | Al Jazeera](https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz)
-- [2026 Philippine energy crisis](https://en.wikipedia.org/wiki/2026_Philippine_energy_crisis)
-- [Oil prices pull back from session highs after report of talks for phased reopening of Strait of Hormuz](https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html)
-- [Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz | US-Israel war on Iran News | Al Jazeera](https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz)
-- [US-Israel-Iran War Latest Live News: Oil Prices Fall After 4% Jump As Asia’s September Crude Imports Hit Highest Level Since Iran War Began; Strait Of Hormuz Talks Continue](https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-oil-prices-fall-after-4-jump-as-asias-september-crude-imports-hit-highest-level-since-iran-war-began-strait-of-hormuz-talks-continue-291429/)
-- [Crude Oil - Price - Chart - Historical Data - News](https://tradingeconomics.com/commodity/crude-oil)
-- [Brent oil - Price - Chart - Historical Data - News](https://tradingeconomics.com/commodity/brent-crude-oil)
-- [The Strait of Hormuz: Security Developments and Impacts on Oil, Gas, and Other Commodities | Congress.gov | Library of Congress](https://www.congress.gov/crs-product/R45281)
-- [Iran War 2026 -- Day 209 Update -- 24 September 2026](https://www.globalsecurity.org/military/ops/iran-war-oprep.htm)
-- [Iran War 2026 Daily Update Calendar](https://www.globalsecurity.org/military/ops/iran-war-update.htm)
-- [US rules out Iran truce extension as Tehran official sets new deadline | Iran International](https://www.iranintl.com/en/202608172808)
-- [US and Iran reach tentative deal for 60-day truce extension, officials say | US-Israel war on Iran News | Al Jazeera](https://www.aljazeera.com/news/2026/5/28/us-and-iran-reach-tentative-deal-for-60-day-truce-extension-officials-say)
-- [US-Iran 60-day proposal: What we know | US-Israel war on Iran News | Al Jazeera](https://www.aljazeera.com/news/2026/5/29/us-iran-60-day-proposal-what-we-know)
-- [Iran 'presents US with road map for regionwide ceasefire and Hormuz reopening' | The National](https://www.thenationalnews.com/news/mena/2026/09/23/iran-us-meeting-new-york/)
-- [Iran offers 60-day ceasefire plan as Hormuz tensions remain high](https://www.siasat.com/iran-offers-60-day-ceasefire-plan-as-hormuz-tensions-remain-high-3547352/)
-- [Pakistan in the 2026 Iran war](https://en.wikipedia.org/wiki/Pakistan_in_the_2026_Iran_war)
-- [Iran proposes 60-day ceasefire as Hormuz tensions persist](https://madhyamamonline.com/middle-east/iran-proposes-60-day-ceasefire-as-hormuz-tensions-persist-1557421)
+
+- Al Jazeera: [US-Houthi talks in Muscat](https://www.aljazeera.com/news/2026/9/18/as-houthis-grab-bab-al-mandeb-us-appears-willing-to-watch-from-sidelines)
+- Al Jazeera Centre for Studies: [Houthi coastal expansion analysis](https://studies.aljazeera.net/en/policy-briefs/expansion-and-exposure-paradox-houthi-control-bab-al-mandeb)
+- Axios: [US-Iran UNGA meeting](https://www.axios.com/2026/09/22/unga-iran-us-trump-war)
+- CBS News: [Senate war powers vote](https://www.cbsnews.com/news/senate-iran-war-powers-resolution-vote/)
+- CNBC: [Senate vote details, Alsobrooks statement](https://www.cnbc.com/2026/09/24/iran-war-powers-senate-vote-fuel.html)
+- Deccan Herald: [Houthi missiles at Yanbu](https://www.deccanherald.com/world/middle-east/houthis-claim-attack-on-riyadh-aramco-facilities-in-yanbu-4158792)
+- Gulf News: [Iran 60-day roadmap](https://gulfnews.com/world/mena/irans-pezeshkian-vows-never-to-bend-at-the-knee-at-un-as-us-iran-talks-60-day-ceasefire-roadmap-and-hormuz-blockade-take-centre-stage-1.500685870)
+- Hydrocarbon Processing: [East-West pipeline restart](https://www.hydrocarbonprocessing.com/news/2026/09/saudi-arabia-restarts-east-west-oil-pipeline/)
+- Jerusalem Post: [Netanyahu UNGA visit](https://www.jpost.com/israel-news/politics-and-diplomacy/article-909521)
+- Jewish Virtual Library: [Netanyahu speech](https://jewishvirtuallibrary.org/politics-wing/peace-process/international-relations-and-aid-international-statements-and-resolutions/prime-minister-netanyahus-2026-un-general-assembly-speech)
+- PBS: [Netanyahu speech](https://www.pbs.org/newshour/amp/world/watch-israeli-prime-minister-netanyahu-addresses-2026-un-general-assembly)
+- Siasat: [Hormuz shipping data](https://www.siasat.com/iran-offers-60-day-ceasefire-plan-as-hormuz-tensions-remain-high-3547352/)
+- The National: [Iran roadmap details](https://www.thenationalnews.com/news/mena/2026/09/23/iran-us-meeting-new-york/)
+- Trading Economics: [Brent crude](https://tradingeconomics.com/commodity/brent-crude-oil), [WTI crude](https://tradingeconomics.com/commodity/crude-oil)
+- Wikipedia: [2026 Iran war ceasefire](https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire)
