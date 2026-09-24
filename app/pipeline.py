@@ -32,15 +32,26 @@ def _save_report(path: Path, result: providers.ProviderResult) -> None:
     print(f"  Saved: {path.relative_to(ROOT)}")
 
 
-def _get_latest_update_dir(slug: str) -> Path | None:
+def _get_prior_report(slug: str, names: tuple[str, ...], before_date: str) -> Path | None:
+    """Find a nonempty report before the target date, skipping incomplete days."""
+    cutoff = date.fromisoformat(before_date)
     updates_dir = TOPICS / slug / "updates"
     if not updates_dir.exists():
         return None
-    dirs = sorted(
-        [d for d in updates_dir.iterdir() if d.is_dir()],
-        key=lambda d: d.name,
-    )
-    return dirs[-1] if dirs else None
+    for directory in sorted(updates_dir.iterdir(), reverse=True):
+        if not directory.is_dir():
+            continue
+        try:
+            report_date = date.fromisoformat(directory.name)
+        except ValueError:
+            continue
+        if report_date >= cutoff:
+            continue
+        for name in names:
+            path = directory / f"{name}.md"
+            if path.is_file() and _read(path).strip():
+                return path
+    return None
 
 
 async def generate_primers(topic_slug: str) -> None:
@@ -87,6 +98,7 @@ async def generate_updates(
 ) -> None:
     """Generate daily update reports for a topic."""
     date_str = date_str or date.today().isoformat()
+    date_str = date.fromisoformat(date_str).isoformat()
     print(f"Generating update for: {topic_slug} ({date_str})")
 
     base_role = _read(PROMPTS / "base_role.md")
@@ -94,20 +106,16 @@ async def generate_updates(
     topic_brief = _read(TOPICS / topic_slug / "topic_brief.md")
 
     # Determine per-provider context: each model reads its own prior report
-    latest_dir = _get_latest_update_dir(topic_slug)
     primers_dir = TOPICS / topic_slug / "primers"
 
     def _get_provider_context(provider_name: str) -> tuple[str, str]:
         """Return (context_text, context_label) for a specific provider."""
-        if latest_dir:
-            # Try this provider's own prior report first
-            own_report = latest_dir / f"{provider_name}.md"
-            if own_report.exists():
-                return _read(own_report), f"Prior {provider_name} update ({latest_dir.name})"
-            # Fall back to synthesis
-            synth = latest_dir / "synthesis.md"
-            if synth.exists():
-                return _read(synth), f"Prior synthesis ({latest_dir.name})"
+        prior_report = _get_prior_report(
+            topic_slug, (provider_name, "synthesis"), date_str
+        )
+        if prior_report:
+            label = f"Prior {prior_report.stem} update ({prior_report.parent.name})"
+            return _read(prior_report), label
         # First update — use this provider's own primer
         own_primer = primers_dir / f"{provider_name}.md"
         if own_primer.exists():
@@ -128,7 +136,7 @@ async def generate_updates(
         context, label = _get_provider_context(provider_name)
         print(f"  {provider_name}: context = {label}")
         user_message = (
-            f"{mode_update}\n\n---\n\n{topic_brief}\n\n---\n\n"
+            f"Report date: {date_str}\n\n{mode_update}\n\n---\n\n{topic_brief}\n\n---\n\n"
             f"Your prior report for context ({label}):\n\n{context}"
         )
         return await call_fn(system_prompt, user_message)
@@ -172,10 +180,15 @@ async def generate_updates(
     synth_mode = _read(PROMPTS / "synthesis_mode_update.md")
 
     prior_synthesis = ""
-    if latest_dir and (latest_dir / "synthesis.md").exists():
-        prior_synthesis = _read(latest_dir / "synthesis.md")
+    prior_label = "No earlier synthesis available"
+    prior_path = _get_prior_report(topic_slug, ("synthesis",), date_str)
+    if prior_path:
+        prior_synthesis = _read(prior_path)
+        prior_label = f"Last available synthesis ({prior_path.parent.name})"
     elif (primers_dir / "synthesis.md").exists():
         prior_synthesis = _read(primers_dir / "synthesis.md")
+        prior_label = "Baseline primer synthesis"
+    print(f"  Synthesis context = {prior_label}", flush=True)
 
     reports_text = ""
     for name, result in results.items():
@@ -183,8 +196,8 @@ async def generate_updates(
 
     synth_system = f"{synth_role}\n\n---\n\n{synth_mode}"
     synth_user = (
-        f"Topic brief:\n\n{topic_brief}\n\n---\n\n"
-        f"Prior synthesis for continuity:\n\n{prior_synthesis}\n\n---\n\n"
+        f"Report date: {date_str}\n\nTopic brief:\n\n{topic_brief}\n\n---\n\n"
+        f"Prior synthesis for continuity — {prior_label}:\n\n{prior_synthesis}\n\n---\n\n"
         f"Today's individual reports:{reports_text}"
     )
 

@@ -178,6 +178,55 @@ class PipelineRecoveryTests(unittest.IsolatedAsyncioTestCase):
         await pipeline.generate_all_updates("2026-09-24")
         self.assertEqual((self.day / "synthesis.md").read_text(), "# Synthesis report")
 
+    async def test_context_survives_incomplete_days_and_excludes_current_and_future(self):
+        updates = self.topics / "test/updates"
+        reports = {
+            "2026-09-17/claude.md": "# Last complete Claude report",
+            "2026-09-17/synthesis.md": "# Last complete synthesis",
+            "2026-09-23/gpt.md": "# Latest GPT report",
+            "2026-09-23/synthesis.md": " \n",
+            "2026-09-24/synthesis.md": "# Same-day synthesis to replace",
+            "2026-09-25/synthesis.md": "# Future synthesis",
+            "drafts/synthesis.md": "# Undated draft",
+        }
+        for relative, content in reports.items():
+            path = updates / relative
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(content)
+
+        await pipeline.generate_all_updates("2026-09-24")
+
+        claude_context = self.claude.await_args.args[1]
+        self.assertIn("Prior claude update (2026-09-17)", claude_context)
+        self.assertIn("# Last complete Claude report", claude_context)
+        gpt_context = self.gpt.await_args.args[1]
+        self.assertIn("Prior gpt update (2026-09-23)", gpt_context)
+        self.assertIn("# Latest GPT report", gpt_context)
+        synth_context = self.synthesis.await_args.args[1]
+        self.assertIn("Report date: 2026-09-24", synth_context)
+        self.assertIn("Last available synthesis (2026-09-17)", synth_context)
+        self.assertIn("# Last complete synthesis", synth_context)
+        for excluded in ("Same-day synthesis to replace", "Future synthesis", "Undated draft"):
+            self.assertNotIn(excluded, synth_context)
+
+    async def test_backfill_uses_only_reports_before_requested_date(self):
+        for day in ("2026-09-15", "2026-09-17"):
+            directory = self.topics / "test/updates" / day
+            directory.mkdir(parents=True)
+            (directory / "synthesis.md").write_text(f"# Synthesis {day}")
+        await pipeline.generate_all_updates("2026-09-16")
+        context = self.synthesis.await_args.args[1]
+        self.assertIn("Last available synthesis (2026-09-15)", context)
+        self.assertNotIn("2026-09-17", context)
+
+    async def test_first_update_labels_primer_context(self):
+        primer = self.topics / "test/primers/synthesis.md"
+        primer.write_text("# Primer synthesis")
+        await pipeline.generate_all_updates("2026-09-24")
+        context = self.synthesis.await_args.args[1]
+        self.assertIn("Baseline primer synthesis", context)
+        self.assertIn("# Primer synthesis", context)
+
 
 if __name__ == "__main__":
     unittest.main()
