@@ -5,16 +5,19 @@ on:
     - cron: '0 14 * * 1-5'  # 2pm UTC / 10am ET / 7am PT weekdays
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+permissions: {}
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     environment:
+      # Preserve access to any environment-scoped provider credentials.
       name: github-pages
+      deployment: false
+    outputs:
+      generation_outcome: ${{ steps.generate.outcome }}
     steps:
       - uses: actions/checkout@v4
 
@@ -52,10 +55,26 @@ jobs:
         with:
           path: site/
 
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - uses: actions/deploy-pages@v4
+        id: deployment
 
+  flag-incomplete-updates:
+    # Report incomplete generation even if building or publishing fails.
+    needs: [update, deploy]
+    if: always() && needs.update.outputs.generation_outcome == 'failure'
+    runs-on: ubuntu-latest
+    steps:
       - name: Flag incomplete updates
-        if: always() && steps.generate.outcome == 'failure'
         run: |
           echo "::error::Report generation was incomplete. Check the Generate daily updates step for provider errors."
           exit 1
