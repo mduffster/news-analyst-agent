@@ -2,32 +2,30 @@
 **Report date:** **Tue, Nov 24, 2026 (ET)**  
 **Update window vs prior report:** **since Fri, Nov 20, 2026 (ET)**
 
-### What’s new / what changed (since Nov 20)
+### What’s new / what changed
 
-1) **U.S. increases economic pressure: new sanctions on Iran-linked exchange houses**  
-- **What changed:** The Trump administration imposed sanctions on **nearly 30 Iran-based or Iran-linked financial exchange houses**, per AP. **[VERIFIED]** ([apnews.com](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai))  
-- **What it means:** This is a clear “pressure track” reinforcement while the mediation channel remains open. It marginally increases incentives for Iran to seek sanctions relief via a deal, but also increases incentives for Iran/proxies to impose counter-pressure (shipping harassment, asymmetric attacks) if Tehran assesses the measures as economic warfare rather than bargaining.
+1) **Qatar channel elevated in Washington: Vance + Rubio met Qatar’s PM (Mon, Nov 23)**
+- **What changed:** AP reports **Vice President JD Vance** and **Secretary of State Marco Rubio** met separately with **Qatar’s Prime Minister/Foreign Minister Mohammed bin Abdulrahman Al Thani** in Washington on **Monday, Nov. 23**, underscoring Qatar’s role trying to **revive negotiations to end the U.S. conflict with Iran**. **[VERIFIED]** ([apnews.com](https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f?utm_source=openai))  
+- **What it means:** This is a **stronger process signal** than the Nov 19 Berlin meeting alone: the Qatar mediation track is now **clearly being handled at the top tier** of the U.S. government. It marginally increases the odds of a **near-term freeze/limited deal framework** (even if partial and contested), but doesn’t itself imply concessions are imminent.
 
-2) **Diplomacy signal strengthened: Rubio publicly thanks Qatar for mediation**  
-- **What changed:** **Secretary of State Marco Rubio** publicly thanked **Qatar’s prime minister** for Qatar’s mediation role as efforts continue to revive talks to end/contain the conflict. **[VERIFIED]** ([apnews.com](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai))  
-- **What it means:** Compared with the Nov 20 “Berlin meeting” reporting, this is a more “official-facing” validation that Qatar remains central and that the channel is active. It modestly raises the probability of a **managed freeze / partial de-escalation** over the next 2–12 months (even if military pressure persists).
+2) **Iran hardens public negotiating posture: “no talks until conditions met”**
+- **What changed:** AP also reports **Iran ruled out talks with the U.S. until its conditions are met**; Iranian state media reportedly cite conditions including **sanctions relief**, **ending the U.S. naval blockade**, and **release of seized Iranian assets**. **[VERIFIED]** ([apnews.com](https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5?utm_source=openai))  
+- **What it means:** This creates a **near-term mismatch**: Washington is leaning into mediation, while Tehran publicly raises **entry price** that the U.S. is unlikely to meet quickly (especially on the blockade). Net effect: **talks may resume only after a face-saving sequencing formula** (e.g., limited humanitarian/financial steps ↔ limited maritime deconfliction), rather than a rapid comprehensive deal.
 
-3) **Transparency/political constraint watchline: major reporting on restricted congressional visibility + high (reported) costs**  
-- **What changed:** The Atlantic reports the Pentagon has tightened controls around congressional travel/visibility into the CENTCOM area, and cites Pentagon estimates putting war operational + munition replacement costs at **~$48B as of mid-November** (noting many believe true totals are higher). **[REPORTED]** ([theatlantic.com](https://www.theatlantic.com/national-security/2026/11/iran-war-pentagon-information-access/689524/?utm_source=openai))  
-- **What it means:** If accurate, this increases domestic political friction and can push the administration toward either (a) **a diplomatic off-ramp** that preserves “strength” optics, or (b) **a short, sharp escalation** framed as necessary to “finish” objectives quickly. The reporting itself doesn’t prove a policy shift, but it’s a meaningful constraint signal to watch.
+3) **Maritime risk signal: reports of multiple tanker incidents in/near Hormuz (today)**
+- **What changed:** ABC (citing **UKMTO**) says there were **reports of three tankers attacked in the Strait of Hormuz** and separately a report of an incident involving **a tanker and military forces in the Gulf of Oman** (as of **11:50am ET today**). **[REPORTED]** ([abcnews.com](https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands?entryId=138402901&id=138369648&utm_source=openai))  
+- **What it means:** Even if details remain unclear, this supports the pattern that the conflict is **persisting as a shipping-centric pressure campaign**, with regular incidents that can rapidly escalate via miscalculation—especially under an ongoing **U.S. blockade posture**.
 
-4) **Iraq flashpoint update: implementation continues, but withdrawal looks partial/managed rather than clean**  
-- **What changed:** Regional reporting suggests Iraqi forces began operating under the new unified command in **Jurf al‑Sakhar**, while **Kataib Hezbollah’s withdrawal is phased** and may leave some presence. **[REPORTED]** ([shafaq.com](https://www.shafaq.com/en/Report/Jurf-Al-Sakhr-Kataib-Hezbollah-leaves-on-its-own-timetable?utm_source=openai))  
-- **What it means:** This nudges the “Iraq stabilizes” interpretation toward **stabilization-by-compromise**: reduced odds of an immediate firefight in that specific location, but elevated risk of **spoilers** or displacement of militia activity elsewhere.
-
-**Net: no confirmed major new U.S.–Israel kinetic escalation events** in this update window from the high-confidence sources surfaced here; the biggest changes are **sanctions + diplomatic signaling** and a **political/visibility constraint narrative**.
+4) **Yemen/Saudi dimension: Rubio publicly decried Houthi attacks on Saudi infrastructure**
+- **What changed:** AP reports the State Department readout of a **Rubio–Saudi FM call (Tue, Nov 24)** in which Rubio criticized **Houthi attacks on Saudi “civilian and energy infrastructure.”** **[OFFICIAL]** ([apnews.com](https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5?utm_source=openai))  
+- **What it means:** The administration is reinforcing that **Iran-linked proxy attacks on energy infrastructure** remain a central justification for pressure—keeping the conflict tied to **regional energy security**, not just the U.S.–Iran bilateral track.
 
 ---
 
-## What changed in assessment (since Nov 20)
-- **Diplomacy track credibility ticked up** (Rubio’s public thanks to Qatar). ([apnews.com](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai))  
-- **Pressure track also ticked up** (new financial sanctions), reinforcing a dual-track posture rather than an immediate pivot to either full escalation or full de-escalation. ([apnews.com](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai))  
-- **Domestic constraint risk** looks incrementally higher (if the Atlantic reporting reflects a real tightening pattern), supporting a bias toward **limbo/entanglement** rather than a clean sustained high-tempo campaign. ([theatlantic.com](https://www.theatlantic.com/national-security/2026/11/iran-war-pentagon-information-access/689524/?utm_source=openai))  
+## Bottom line (delta vs Nov 20)
+- The biggest change is **diplomacy “up-tiering”**: Qatar’s mediator role is now visibly engaged at **Vance/Rubio level** in Washington. ([apnews.com](https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f?utm_source=openai))  
+- Counterweight: **Tehran publicly conditions talks** on steps that look hard for Washington to accept immediately, implying **slow, fragile diplomacy** rather than a quick breakthrough. ([apnews.com](https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5?utm_source=openai))  
+- Maritime incident reporting suggests the conflict’s **operational center of gravity remains Hormuz/shipping**, sustaining escalation-by-incident risk. ([abcnews.com](https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands?entryId=138402901&id=138369648&utm_source=openai))  
 
 ---
 
@@ -40,7 +38,8 @@
 - **Large-scale U.S. ground war in Iran:** **1%** (flat)
 
 **What moved (+ why):**
-- **Entanglement +2pp / sustained campaign -2pp:** Sanctions escalation paired with overt Qatar mediation support signals a continued **pressure + negotiation** pattern rather than a decisive shift to continuous major operations. ([apnews.com](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai))  
+- **Entanglement +2pp / sustained campaign -2pp:** Elevated Qatar talks in Washington increase odds the next 1–2 months look like **pressure + mediation + episodic maritime/air incidents**, not a clean shift into a higher-tempo continuous campaign. ([apnews.com](https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f?utm_source=openai))  
+- **No change to ground-war tail risk:** No new indicators of mobilization for major ground invasion in the new reporting.
 
 ### 2–12 months (to ~Nov 24, 2027)
 - **Limited engagement:** **6%** (**from 5%**, **+1pp**)  
@@ -49,21 +48,23 @@
 - **Large-scale U.S. ground war in Iran:** **2%** (flat)
 
 **What moved (+ why):**
-- **Limited engagement +1pp:** Rubio’s public reinforcement of Qatar’s mediation role modestly improves odds of an eventual partial off-ramp. ([apnews.com](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai))  
-- **Sustained campaign -2pp:** The growing domestic-constraint narrative (access/cost scrutiny) modestly increases the likelihood of a negotiated “freeze” or episodic posture over a long, high-tempo campaign. **[REPORTED]** ([theatlantic.com](https://www.theatlantic.com/national-security/2026/11/iran-war-pentagon-information-access/689524/?utm_source=openai))  
+- **Limited engagement +1pp:** High-level engagement with Qatar modestly raises the chance of a **partial off-ramp** (some maritime deconfliction / limited sanctions or asset moves) even if the broader rivalry persists. ([apnews.com](https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f?utm_source=openai))  
+- **Sustained campaign -2pp:** Iran’s stated conditions imply **protracted bargaining**, which historically correlates with a **lower probability of uninterrupted high-tempo campaigning** and a higher probability of “limbo.” ([apnews.com](https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5?utm_source=openai))  
 
-**New outcomes to track / resolved?**  
-- **No new bucket added; none resolved.**  
-- **Emerging watchline that doesn’t neatly fit buckets:** “**governance/visibility constraint**” (Congressional access + cost opacity) as a driver of operational tempo decisions. **[REPORTED]** ([theatlantic.com](https://www.theatlantic.com/national-security/2026/11/iran-war-pentagon-information-access/689524/?utm_source=openai))  
+**New outcomes to track / resolved outcomes?**  
+- No outcomes resolved. No new bucket added.  
+- **Emerging watchline:** frequency/severity of **UKMTO-reported Hormuz/Gulf of Oman incidents** as a leading indicator for sudden escalation. ([abcnews.com](https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands?entryId=138402901&id=138369648&utm_source=openai))  
 
 ---
 
 ## Watch items (new/changed)
-1) **Does the Qatar channel produce concrete terms** (sequencing of ceasefire/blockade relief/nuclear talks), not just process statements? **[VERIFIED for channel activity]** ([apnews.com](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai))  
-2) **Sanctions-to-kinetics linkage:** whether new sanctions are followed by Iranian asymmetric responses in shipping lanes or via proxies (especially timed to holiday/weekend windows). **[VERIFIED for sanctions event]** ([apnews.com](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai))  
-3) **Iraq displacement risk:** if Jurf al‑Sakhar deconfliction holds, watch for militia activity shifting to other pressure points rather than disappearing. **[REPORTED]** ([shafaq.com](https://www.shafaq.com/en/Report/Jurf-Al-Sakhr-Kataib-Hezbollah-leaves-on-its-own-timetable?utm_source=openai))
+1) **Negotiation sequencing:** whether Washington/Qatar can craft a **face-saving order of operations** that partially addresses Iran’s stated demands (blockade/assets/sanctions) without collapsing U.S. leverage. ([apnews.com](https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5?utm_source=openai))  
+2) **Maritime incident attribution:** whether tanker incidents are confirmed as **state action vs. proxies vs. ambiguous sabotage**, and whether any incident produces U.S./Israeli retaliation. ([abcnews.com](https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands?entryId=138402901&id=138369648&utm_source=openai))  
+3) **Proxy/energy targeting:** whether Houthi attacks on Saudi energy infrastructure intensify enough to force a wider set of responses beyond the current posture. ([apnews.com](https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5?utm_source=openai))  
+
+**If you want, I can also add a one-page “signals dashboard” (diplomacy / military / shipping / nuclear / oil) and track each as up/down/flat day-over-day.**
 
 ## Sources
-- [Ukrainian naval drones strike a new Russian warship in Libya, and other Mideast news](https://apnews.com/article/c2cb6de3515f887a5786c1147e918489?utm_source=openai)
-- [What We Don't Know About the Iran War](https://www.theatlantic.com/national-security/2026/11/iran-war-pentagon-information-access/689524/?utm_source=openai)
-- [Shafaq News..Jurf Al-Sakhr: Kataib Hezbollah leaves on its own timetable](https://www.shafaq.com/en/Report/Jurf-Al-Sakhr-Kataib-Hezbollah-leaves-on-its-own-timetable?utm_source=openai)
+- [Vance and Rubio meet with Qatari PM as uncertainty mounts over Trump's intentions with Iran](https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f?utm_source=openai)
+- [Houthi rebels close in on the city of Aden as Yemeni forces dig in behind a fortified line](https://apnews.com/article/ba01cb036a849ba69873da5000ee08d5?utm_source=openai)
+- [Iran live updates: 3 tankers attacked in Strait of Hormuz, UKMTO says - ABC News](https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands?entryId=138402901&id=138369648&utm_source=openai)

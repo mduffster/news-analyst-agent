@@ -1,140 +1,114 @@
-# US-Israel-Iran Conflict: Trump Delays Strike Decision to 2027 as Iran Tests Blockade and Tanker Confrontation Looms
+# US-Israel-Iran Conflict: Hormuz Attacks Hit Record Levels as Houthis Injure 11 in Second Riyadh Strike; Saudi Coalition Orders Hodeidah Evacuation
 
 ## November 24, 2026 — Day 270
 
-**Assessment:** The past four days have crystallized competing trajectories: Trump has explicitly deferred major strike decisions until 2027, providing the clearest de-escalation signal since the war began—yet Iran's preparations to challenge the US naval blockade with a tanker convoy have created a potential flashpoint that could override this timeline. The UKMTO's report of an incident "involving a tanker and military forces" near the blockade line on November 22 suggests the confrontation may have already begun in limited form. Meanwhile, Israeli coalition talks collapsed Sunday without agreement, narrowing Eisenkot's path to forming a government as his mandate clock runs down. Oil has fallen to ~$86-90/barrel despite record-high Hormuz attack rates, as markets price in that the blockade will hold and major escalation remains unlikely. The dual-track posture of expanded sanctions and active Qatari mediation—with Rubio meeting Qatar's PM Monday—indicates the administration prefers economic pressure and diplomacy over renewed kinetic operations, at least through year-end.
+**Assessment:** The conflict has entered a phase of intensifying violence without escalation to a decisive military confrontation. Iran's Strait of Hormuz attacks have reached their highest sustained tempo since the war began—reported attacks on shipping in and around the Strait of Hormuz are at the highest levels since the Iran war began, with at least 22 attacks reported in November as of Sunday, the second highest figure since the war began. Simultaneously, eleven people were injured Tuesday in a Houthi attack targeting a tower in Riyadh's financial district—the second such attack on the district in less than a week. This escalation has triggered the Saudi-led coalition to order civilians to evacuate Yemen's Hodeidah port. Yet oil prices continue their three-month slide despite the violence, with Brent rising slightly to $90.64/bbl on November 24 but still down 21.74% over the past month. The Trump administration is pursuing parallel tracks: intensifying sanctions while maintaining Qatar-mediated diplomacy. Defense Secretary Hegseth's former chief of staff Joe Kaspar has called on him to resign, accusing him of mismanaging the Pentagon and the Iran war. Israel's coalition-forming continues, with Eisenkot's Yashar party signing a coalition pact with Lieberman's right-wing opposition party, the first such alliance since the election.
 
 ---
 
-## 1. Trump Defers Strike Decision to 2027: Clearest De-escalation Signal Yet
+## 1. Hormuz Attacks Reach Highest Level Since War Began
 
-US President Donald Trump has pushed back a decision on possible fresh military strikes against Iran until after the beginning of 2027, signaling that Washington is in no immediate rush to launch another major bombing campaign.
+Reported attacks in and around the Strait of Hormuz have been higher in number in October and November than any previous months since the war between the U.S., Israel and Iran began in late February. The pattern shows Iran escalating pressure as oil prices decline and the blockade constrains its economy.
 
-Speaking to Reuters aboard Air Force One on November 19, while returning from his visit to China, Trump said he would discuss the possibility of fresh strikes "after the beginning of the year," adding, "We've got time."
+**Today's incidents:** Iran's Islamic Revolutionary Guard Corps said three "offending" oil tankers "suffered a severe explosion and fire after hitting naval mines" in the Strait of Hormuz. Iran says three oil tankers hit by naval mines in Strait of Hormuz. [OFFICIAL — IRGC statement]
 
-In recent weeks, Trump has alternated between threats of escalation against Iran and indicating he could wind down hostilities, with the two sides in a standoff over efforts to resolve the conflict.
+**Traffic impact:** Iran has reiterated that it will use "all available means" to confront the United States naval blockade, as it has stepped up attacks on tankers attempting to cross the Strait of Hormuz, a global oil chokepoint, signalling potential escalation. Traffic through the strait has declined by approximately 40% according to Al Jazeera analysis.
 
-However, Trump simultaneously issued a stark warning regarding Iran's tanker convoy preparations: "I hope they do, they'll all be at the bottom of the sea like the rest of the navy," Trump told Fox News when asked whether Iran would attempt to breach the blockade.
+**Cyberattack dimension:** U.S. authorities are investigating Iran's potential involvement in dozens of cyberattacks against energy tankers. As many as 50 ships carrying oil, liquefied petroleum, chemical products, and other hazardous cargoes are believed to have been attacked. The ships carrying oil, liquefied gas, and other explosive chemicals were hacked as they travelled across Asia and Europe. Several oil tankers headed towards the U.S. coast in August also had their navigation systems breached. [REPORTED — WSJ, confirmed by multiple outlets]
 
-Trump has previously demonstrated a willingness to act on short notice; he ordered strikes in February just one day after stating he had not yet made a decision.
-
-**Significance:** [OFFICIAL] This is the most explicit delay signal Trump has issued. The 2027 timeline moves the immediate strike question past the December coalition deadline in Israel and reduces lame-duck escalation probability. However, Trump's belligerent response to convoy preparations indicates he would override this timeline if Iran directly challenges the blockade.
+**Significance:** Iran is pursuing a combined physical-cyber campaign to demonstrate that the blockade cannot fully protect commercial shipping. The simultaneous mine attacks on three tankers suggest improved coordination. However, the continued decline in oil prices indicates markets believe the blockade remains viable despite these attacks.
 
 ---
 
-## 2. Iran Positions Tankers for Blockade Challenge; Confrontation May Have Already Begun
+## 2. Houthis Strike Riyadh Financial District Again — 11 Injured; Saudi Coalition Orders Hodeidah Evacuation
 
-Iran has positioned more than 14 oil tankers at Kharg Island in a convoy poised to attempt to break the US naval blockade of its oil exports, satellite imagery and ship-tracking data show.
+**Today's attack:** Eleven people were injured Tuesday in a Houthi attack targeting a tower in Riyadh's financial district. The attack struck one of the towers in the district, injuring two Saudi citizens, two Indian residents, three Nepalese residents and four Egyptians. [VERIFIED — Saudi Civil Defense]
 
-Crews have been assigned to the tankers, Iranian flags have been raised over them, and Tehran plans to send them in convoy toward the Sea of Oman exit in the coming days, the reports said.
+Tuesday's incident marked the second attack on a tower in the financial district in less than a week. The November 19 attack on the PIF Tower—Riyadh's tallest skyscraper—caused material damage but no injuries.
 
-Guards-linked media, lawmakers and Friday prayer leaders signaled this week that Iran is preparing to send tankers through the US naval blockade, and warned that any attack on them would bring strikes on oil facilities across the Persian Gulf.
+**Saudi response:** The Saudi-led coalition urged civilians early Wednesday to leave Yemen's port of Hodeidah, citing safety concerns. Coalition spokesman Turki al-Maliki posted the warning alongside a map marking the evacuation area in red. [OFFICIAL — Saudi coalition]
 
-A critical development emerged Sunday: The UK Maritime Trade Operations (UKMTO) announced on Sunday evening that "a tanker was involved in an incident with military forces in the Gulf of Oman," east of the Strait of Hormuz, near the southern Iranian city of Charbahar.
+The Saudi-led military coalition fighting Yemen's Houthis has ordered civilians to evacuate Hodeidah Port. The Houthis say they will attack Saudi Red Sea ports if the coalition follows through on its threat to attack Hodeidah.
 
-The UKMTO wording identifying "military forces" may indicate a US military action against a tanker, while the reported location is close to the US navy blockade line. Also, the location and the timing of the incident are consistent with where an Iranian tanker would be in its attempt to break the US military naval blockade had it sailed from Kharg Island on Sunday morning.
+**Context:** The Saudi-led coalition on Friday launched an attack on Yemen's Hodeidah port that it said targeted weapons smuggling activities by the Iran-backed Houthi militia. The Houthis gave a death toll of 41 dead from coalition strikes in the past 24 hours. Yemen's Saudi-backed armed forces said 31 airstrikes, 91 drone attacks and hundreds of artillery attacks left 193 Houthi fighters dead or wounded.
 
-However, independent verification remains elusive: Maritime intelligence company Windward reported on November 21 that 16 tankers were anchored near Kharg Island, but none had moved since November 13. Its analysis also found no evidence of an organized convoy heading toward the American blockade line as of November 20.
-
-The blockade has pushed Iran's seaborne oil exports to near zero and trapped 43 million barrels inside the cordon. Tehran now calls the blockade an act of war.
-
-**Significance:** [REPORTED — multiple sources with conflicting details] This represents the most dangerous potential flashpoint. If Iran launches a convoy and the US fires on flagged Iranian vessels, Iran has explicitly threatened to attack UAE oil facilities and Dubai infrastructure. The November 22 UKMTO incident suggests some form of military engagement may have occurred, though details remain unclear.
+**Significance:** The Yemen front is escalating independently of the main US-Iran conflict. The Houthis have demonstrated repeated ability to penetrate Saudi air defenses and hit high-profile targets. The Hodeidah evacuation order suggests Riyadh may be preparing for a more sustained offensive against the port—a major escalation that could disrupt humanitarian supply routes and trigger broader regional consequences.
 
 ---
 
-## 3. Israeli Coalition Talks Collapse; Eisenkot's Mandate Clock Running
+## 3. Hegseth's Former Chief of Staff Calls for Resignation; Internal GOP Pressure Mounts
 
-The parties of caretaker Israeli prime minister Benjamin Netanyahu and his rival Gadi Eisenkot concluded a new round of talks on Sunday without reaching an agreement on a possible coalition government, which would require concessions from both sides.
+A former top aide to Defense Secretary Pete Hegseth is calling on him to resign, saying he has badly mismanaged both the Pentagon and the ongoing war in Iran and let showmanship get in the way of doing his job well. [VERIFIED — Politico]
 
-Negotiating teams representing Prime Minister Benjamin Netanyahu's Likud party and opposition leader Gadi Eisenkot's Yashar party agreed Sunday to hold another round of coalition talks, despite ending a meeting lasting more than four hours without reaching substantive agreements on the major obstacles to forming a national unity government. Likud wants the national security minister [Ben-Gvir] included in the coalition, while Eisenkot's party insists that he remain outside it.
+Defense Secretary Pete Hegseth's former chief of staff called for the Pentagon chief to resign, arguing he botched the handling of the Iran war and criticized his former boss for firing dozens of senior military leaders and blocking promotions of military officers.
 
-A minority government led by Eisenkot could potentially rely on external support from Arab parties, which hold 19 seats in Parliament. However, another of Eisenkot's allies, nationalist politician Avigdor Liberman, opposes such an arrangement and instead favors an alliance with ultra-Orthodox parties, which have not endorsed Eisenkot's bloc.
+Kasper criticized Hegseth's handling of the ongoing Iran war, describing it as a "shitshow." He also accused the defense secretary of prioritizing personal image and showmanship over military leadership.
 
-Eisenkot has until early December to form a new government after both his and Netanyahu's blocs fell short of a majority in the 120-seat Knesset in Israel's October legislative elections.
+Hegseth narrowly survived a recent impeachment effort led by retiring Rep. Thomas Massie. But Kaspar said Hegseth's luck could be short-lived when Democrats assume control of Congress in January.
 
-"As for the talks with the Likud, we are making sincere and genuine efforts, but unfortunately there is a wide gap between rhetoric and actions, and between the Likud's rhetoric and its actual willingness to cooperate," Eisenkot wrote in a post on social media on Friday.
-
-**Significance:** [VERIFIED] Sunday's failure increases pressure on Eisenkot to pursue a minority government path, likely with Arab party support—which Liberman has rejected. The deepening divisions within Eisenkot's bloc complicate all paths forward. His mandate expires around December 6, leaving approximately two weeks for resolution.
+**Significance:** This is the most significant internal criticism of Hegseth's war management to date. Combined with the failed impeachment attempt and the incoming Democratic House majority, Hegseth faces mounting pressure. The timing—just as Trump has deferred any major strike decision to 2027—suggests the administration may be facing internal doubts about the war's management even as it maintains the status quo operationally.
 
 ---
 
-## 4. Hormuz Attacks Reach Record Levels; Three More Tankers Struck
+## 4. Eisenkot Signs First Coalition Agreement; Path to 61 Remains Narrow
 
-Reported attacks on shipping in and around the Strait of Hormuz are at the highest levels since the Iran war began, maritime data shows, as Tehran seeks to re-exert its control over the critical waterway amid falling oil prices. As of Sunday, at least 22 attacks were reported in November, the second highest figure since the war began, according to a CNN analysis of UKMTO data.
+Israel's Yashar party, led by former military chief Gadi Eisenkot, said on Tuesday it agreed to sign a coalition pact with a right-wing opposition party as it seeks to form a government following last month's election. [VERIFIED — Reuters]
 
-During the latest attacks, projectiles struck three tankers exiting the strait on Friday and Saturday, according to Marisks, a maritime risk management company.
+Israel's parliament was sworn in on November 10 without a new government. Eisenkot's center-right Yashar party and patchwork coalition partners—including Lieberman—hold just 48 seats. But they have potential allies in the parties representing Israel's Arab minority, which hold 19 seats.
 
-The United Kingdom Maritime Trade Operations (UKMTO) Centre reported an attack on a tanker in the Strait of Hormuz early on Monday morning.
+**Unity talks collapsed:** Talks between the parties of caretaker Prime Minister Benjamin Netanyahu and opposition leader Gadi Eisenkot to form a unity government have ended without a deal. Representatives of Netanyahu's Likud and Eisenkot's Yashar parties met in a Herzliya hotel on Sunday, where they remained split on who would lead the next government and whether far-right National Security Minister Itamar Ben-Gvir would be part of it.
 
-Earlier on Sunday, Iranian media quoting Iran's navy said two supertankers caught fire after hitting mines in a "restricted area" east of the Strait of Hormuz and north of Ghanam Island.
+**Timeline:** Eisenkot has until December 6 to form a government under a 28-day mandate but he could ask for a 14-day extension. Talks are also ongoing between Eisenkot, some of his "change bloc" partners and Likud on forming a unity government.
 
-**Significance:** [VERIFIED — UKMTO] The attack tempo continues accelerating despite Trump's delay signal, suggesting Iran is using Hormuz harassment as economic pressure while holding the convoy gambit in reserve. The paradox of record attacks coinciding with falling oil prices indicates markets believe the harassment is manageable and major escalation unlikely.
+**Alternative path:** If unity talks fail, Yashar plans to seek a confidence vote in the Knesset for a minority government before Eisenkot's mandate expires.
 
----
-
-## 5. Iran Escalates Bahrain Strikes; Two Civilians Wounded
-
-Iran launched two waves of drone and ballistic missile attacks on Saturday night against four US bases in Bahrain, home to the US Fifth Fleet headquarters, the Iranian media reported.
-
-Bahrain said Sunday that two people were wounded in an Iranian strike the previous day on "a civilian industrial site" in the Gulf kingdom, which has faced several attacks this week.
-
-"His condition is stable. A Pakistani resident was also wounded and is in critical condition."
-
-Iran's Revolutionary Guards have repeatedly said they targeted US facilities in Bahrain, where Iranian strikes resumed on November 13 after a lull since early September.
-
-The IRGC said the operation was a response to continued violations of Iranian airspace, including by US MQ-1 and MQ-9 reconnaissance and combat drones. "During the operation, US military positions at the Al-Riffa and Awali bases in Bahrain were targeted with missile and drone strikes."
-
-**Significance:** [VERIFIED — Bahrain confirmed casualties] The resumption of Bahrain strikes after a two-month lull signals Iran is expanding its pressure campaign beyond Hormuz shipping harassment. The casualties mark a concerning escalation, though both appear to be civilians rather than military personnel.
+**Significance:** The Lieberman deal brings a right-wing nationalist into Eisenkot's coalition, potentially reducing the political cost of relying on Arab party support. With unity talks stalled, Eisenkot's most likely path to government is a minority arrangement with Arab party backing—which would represent a historic shift in Israeli politics and could significantly change the country's approach to the Iran conflict.
 
 ---
 
-## 6. US Expands Sanctions on Iran's "Shadow Banking" Networks
+## 5. US Intensifies Sanctions; Qatar Mediation Continues
 
-The US Treasury Department imposed sanctions Monday on more than two dozen exchange houses, front companies, and individuals linked to Iran's shadow banking network.
+**New sanctions:** The United States imposed sanctions on 22 entities and eight people on Monday to disrupt the shadow banking networks Iran uses to move money abroad. [OFFICIAL — Treasury Department]
 
-The sanctions, part of Washington's Operation Economic Outcast, targeted Iranian exchange houses and overseas trading companies that Treasury said handled payments for Iranian oil, petrochemical and metals exporters. Treasury also sanctioned the Iran Center for Exchange of Currency and Gold, which matches Iranian exporters earning foreign currency with importers who need it to buy goods abroad.
+"Iran's economy is underwater, and its leaders are panicking," US Treasury Secretary Scott Bessent said.
 
-"Iran's shadow banking system is the last financial lifeline of a bankrupt regime," said US Secretary of the Treasury Scott Bessent.
+Treasury said Monday's sanctions hit two dozen Iranian exchange houses and front companies that have kept Iran's foreign trade running, including firms based in the United Arab Emirates, Turkey and Hong Kong, as well as key personnel.
 
-The Treasury also revealed Monday that its Financial Crimes Enforcement Network (FinCEN) "identified approximately $14.7 billion of financial activity from January 2025 to August 2026 potentially linked to Iranian shadow banking."
+**Diplomatic track:** Qatar said Tuesday that diplomatic contacts and meetings were continuing to bridge differences between the United States and Iran, in coordination with Gulf countries, stressing the need to restore freedom of navigation through the Strait of Hormuz and return to the negotiating table. [OFFICIAL — Qatar Foreign Ministry]
 
-**Significance:** [OFFICIAL — US Treasury] This reinforces the administration's "max pressure" track while diplomatic channels remain open. The scope—targeting entities in UAE, Turkey, and Hong Kong—indicates Washington is tightening secondary sanctions even as it defers kinetic decisions.
+Warning against further military escalation, Qatar's spokesman said any escalation on the ground would adversely affect the mediation efforts being conducted by Qatar in coordination with its partners. He also referred to remarks made on Monday by Qatar's Prime Minister who urged all parties to exercise restraint.
 
----
+**Iran's posture:** Iran's Foreign Ministry spokesperson Esmaeil Baghaei yesterday said Iran will use all its tools to confront the U.S. naval blockade. Baghaei said "the naval blockade… is considered a military aggression," and that "Iran has the right to use any available tool to defend itself in this regard."
 
-## 7. Qatar Mediation Intensifies: Rubio Meets Qatari PM
-
-Qatar's Prime Minister and Foreign Minister Sheikh Mohammed bin Abdulrahman Al Thani is scheduled to meet US Secretary of State Marco Rubio in Washington on Monday to discuss mediation efforts aimed at bringing the United States and Iran back to the negotiating table.
-
-Rubio expressed appreciation for Qatar's efforts to mediate diplomatic conversations between the US and Iran and emphasized the importance of further cooperation on threats across the Middle East, according to the same readout.
-
-A Qatari delegation visited Tehran on Friday night and held two hours of talks with Iranian officials, Deputy Foreign Minister Kazem Gharibabadi said, according to Iran's semi-official Tasnim news agency.
-
-He also said Iran regards the US economic blockade as an act of war and will "take any action necessary" to break it. Iran's conditions have included ending the war on all fronts, unfreezing Iranian assets, lifting oil sanctions and ending the US counter-blockade of Iranian ports.
-
-However, the US administration does not appear willing to accept Iran's terms. Marco Rubio has described Tehran's offer as "unacceptable, unreasonable and unrealistic."
-
-**Significance:** [OFFICIAL — State Department] The public acknowledgment of Qatar's mediation role and Rubio's meeting with the Qatari PM represents a slight upgrade to the diplomatic track compared to the Nov 20 Witkoff-Kushner engagement. However, the fundamental gap between US and Iranian positions remains unbridged.
+**Significance:** The administration is pursuing "maximum pressure without escalation"—intensifying economic sanctions while maintaining the Qatar diplomatic channel. Iran's hardening rhetoric and escalating Hormuz attacks suggest Tehran is testing whether increased violence will force concessions or trigger the major US strike that Trump has deferred.
 
 ---
 
-## 8. Oil Markets Defy Violence, Fall to 12-Week Lows
+## 6. Oil Prices Continue Three-Month Slide Despite Violence
 
-Brent fell to 90.63 USD/Bbl on November 23, 2026, down 2.09% from the previous day. Over the past month, Brent's price has fallen 21.74%.
+Brent rose to 90.64 USD/Bbl on November 24, 2026, up 1.42% from the previous day. Over the past month, Brent's price has fallen 21.74%, but it is still 46.66% higher than a year ago. [VERIFIED — Trading Economics]
 
-Brent Oil Futures extended a punishing multi-week losing streak, shedding 4.1% to close near $86.28—its lowest level since August 2026—as the structural narrative in crude markets shifted decisively from geopolitical scarcity to fundamental oversupply. Crude oil prices have fallen by approximately 21% in November 2026.
+As of 7:45 a.m. Eastern Time today, oil is trading at $90.42 per barrel. That's $1.63 below yesterday morning's level. Price of oil 1 month ago: $117.47 (-23.02%).
 
-Crude oil fell below $82 per barrel on Friday and remained on track for a third consecutive weekly decline, as signs of abundant global supply outweighed concerns over potential renewed US strikes on Iran.
+Despite the attacks, oil prices have fallen, with Brent crude futures at $88.35 per barrel as supplies recover.
 
-**Price Trajectory:**
-| Date | Brent Price | Context |
-|------|-------------|---------|
-| Oct 30 | ~$118 | Pre-escalation |
-| Nov 9 | ~$92 | Post-midterm |
-| Nov 20 | ~$90 | Third weekly decline |
-| Nov 23 | ~$86-90 | 12-week low |
+**Market interpretation:** Markets are pricing in expectations that: (a) the US blockade will continue to hold, (b) alternative supply routes compensate for Hormuz disruptions, and (c) major escalation remains unlikely. The paradox—record Hormuz attacks coinciding with falling oil prices—suggests the conflict has reached a stable but violent equilibrium that neither side finds intolerable.
 
-**Significance:** [VERIFIED] Markets are pricing in that: (a) global supply is robust despite blockade; (b) major escalation is unlikely through year-end; (c) the conflict will remain "frozen" rather than intensify. This reduces economic pressure on both sides to seek rapid resolution but also diminishes Iran's leverage from Hormuz disruption.
+---
+
+## What Changed Since November 20
+
+| Development | Nov 20 Status | Nov 24 Status | Significance |
+|-------------|---------------|---------------|--------------|
+| **Hormuz attacks** | 7 strikes/week | 22+ attacks in Nov (highest since war) | Iran testing blockade limits |
+| **Houthi-Saudi** | PIF Tower struck (no injuries) | Second tower strike, 11 injured | Escalation with casualties |
+| **Hodeidah** | — | Coalition orders civilian evacuation | Major Yemen escalation imminent |
+| **Cyberattacks** | — | ~50 ships targeted | New dimension of Iranian campaign |
+| **Eisenkot coalition** | Talks ongoing | Lieberman deal signed (48 seats) | First concrete breakthrough |
+| **Unity talks** | Active | Collapsed without deal | Narrows Eisenkot's options |
+| **Hegseth pressure** | Failed impeachment | Former CoS calls for resignation | Internal GOP criticism mounting |
+| **US sanctions** | Ongoing | 30 new designations (shadow banking) | Economic pressure intensifying |
+| **Oil prices** | ~$90/barrel | ~$90-91/barrel | Stable despite violence |
 
 ---
 
@@ -144,20 +118,20 @@ Crude oil fell below $82 per barrel on Friday and remained on track for a third 
 
 | Scenario | Probability | Change vs Nov 20 | Reasoning |
 |----------|-------------|------------------|-----------|
-| **Sustained operations at current baseline** | 68% | +3% | Trump's explicit 2027 delay; sanctions track active; baseline entrenchment |
-| **Major escalation (renewed US/Israeli broad strikes)** | 12% | -5% | Trump delay signal strongest yet; reduces near-term kinetic action odds |
-| **Reduced intensity / partial de-escalation** | 14% | +2% | Active Qatar mediation; Rubio engagement; both sides signaling talks |
-| **Durable ceasefire or sustained settlement** | 6% | — | No progress on uranium or blockade; positions hardened |
+| **Sustained operations at current baseline** | 68% | +3% | Record violence without breakthrough in either direction; both sides testing limits |
+| **Major escalation (renewed US/Israeli broad strikes)** | 14% | -3% | Trump deferred to 2027; Eisenkot coalition progress reduces Netanyahu leverage |
+| **Reduced intensity / partial de-escalation** | 12% | — | Qatar channel active but no progress; Iran hardening posture |
+| **Durable ceasefire or sustained settlement** | 6% | — | No framework for comprehensive deal; both sides signaling resolve |
 
-**Key Shifts:**
+**Key Drivers:**
 
-- **Major escalation probability halved (-5%):** Trump's explicit statement that he will wait until "after the beginning of the year" is the clearest signal yet that a lame-duck strike campaign is unlikely barring a major Iranian provocation.
+- **Status quo reinforced (+3%):** The pattern of escalating low-level violence without decisive action from either side suggests both have found a painful but sustainable equilibrium. Trump's deferral to 2027, falling oil prices, and the absence of major casualties allow continuation.
 
-- **Baseline scenario strengthened (+3%):** The combination of economic pressure (new sanctions), diplomatic engagement (Qatar-Rubio meeting), and military restraint (delay) indicates the administration has settled on a "max pressure without escalation" posture through year-end.
+- **Major escalation probability reduced (-3%):** Trump has explicitly deferred strike decisions. Eisenkot's coalition progress narrows Netanyahu's window to influence US policy through immediate joint-strike pressure. The Hegseth criticism suggests internal doubts about further escalation.
 
-- **Convoy confrontation wildcard:** The November 22 UKMTO incident suggests some limited engagement may have occurred. If Iran launches a full convoy, all scenarios shift dramatically toward escalation regardless of Trump's stated timeline.
+- **Yemen wildcard:** The Hodeidah evacuation order introduces a new escalation vector outside the main US-Iran track. Saudi action against Houthis could trigger Iranian responses that change the broader dynamic.
 
-- **Israeli coalition uncertainty:** Sunday's failed talks reduce odds that a stable new Israeli government forms before Eisenkot's mandate expires, prolonging political paralysis during a critical period.
+- **Cyber dimension:** Iran's apparent cyberattack campaign on tankers represents capability expansion that could cause accidents or port incidents far from the Middle East—a potential trigger for escalation if a vessel is catastrophically damaged.
 
 ---
 
@@ -165,35 +139,44 @@ Crude oil fell below $82 per barrel on Friday and remained on track for a third 
 
 | Signal | Implication |
 |--------|-------------|
-| **Iranian tanker movement from Kharg Island** | Any confirmed convoy departure would immediately escalate confrontation risk; Trump has explicitly threatened to sink them |
-| **Clarification of November 22 UKMTO incident** | If confirmed as US action against an Iranian tanker, would indicate blockade enforcement is intensifying |
-| **Eisenkot minority government announcement** | Would indicate unity talks have definitively failed; Arab party alignment would be pivotal |
-| **Likud-Yashar talks resumption (date TBD)** | Continued talks suggest compromise still possible; absence of resumption signals pivot to minority path |
-| **Iran response to new sanctions** | Could trigger additional Bahrain/Hormuz attacks or accelerate convoy deployment |
-| **Qatar mediation terms disclosure** | Public sequencing (ceasefire, blockade relief, nuclear scope) would indicate genuine progress |
-| **Brent sustained below $85** | Would signal markets see conflict as fully contained; reduces pressure on both sides |
-| **Missing seafarers status** | Two seafarers missing since mid-November; confirmed deaths would increase pressure for stronger response |
+| **Saudi strike on Hodeidah port** | Would trigger Houthi attacks on Saudi Red Sea ports; potential UN humanitarian crisis |
+| **Tanker cyberattack causing major incident** | Could justify expanded US response; demonstrates Iranian reach beyond Gulf |
+| **Eisenkot confidence vote (before Dec 6)** | Success = new Israeli government with different war posture; failure = possible new elections |
+| **US military response to Bahrain/Hormuz attacks** | Would signal shift from "max pressure" to active retaliation |
+| **Missing seafarers confirmed dead** | Media focus on casualties could shift political pressure |
+| **Oil below $85 sustained** | Would signal markets pricing in conflict resolution |
+| **Iran tanker convoy attempt** | Test of blockade that could trigger confrontation |
+| **Democratic Congress committees (January)** | Hegseth hearings, war funding battles likely |
 
 ---
 
 ## Sources
 
-- ABC News: [IRGC Bahrain attacks](https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071)
-- Al Jazeera: [Bahrain industrial facility strike](https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-caused-fire-at-industrial-facility), [Iran-Qatar talks](https://aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions), [US shadow banking sanctions](https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks)
-- Al-Monitor: [Bahrain casualties](https://www.al-monitor.com/originals/2026/11/iran-strike-wounds-two-bahrain-saudi-condemns-criminal-attacks)
-- CNN: [Hormuz attacks record levels](https://www.cnn.com/2026/11/22/middleeast/hormuz-attacks-highest-levels-iran-war-intl)
-- Euronews: [Coalition talks](https://www.euronews.com/2026/11/22/gadi-eisenkot-invites-netanyahus-likud-party-for-marathon-coalition-talks), [Tanker convoy](https://www.euronews.com/2026/11/20/iran-readies-tanker-convoy-at-kharg-island-to-test-us-oil-blockade), [Military forces incident](https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz), [Bahrain strikes](https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade)
-- Gulf News: [Trump delay](https://gulfnews.com/world/americas/will-us-strike-iran-again-trump-says-decision-can-wait-until-2027-1.500754568)
-- Iran International: [Hardliner convoy push](https://www.iranintl.com/en/202611204994), [Shadow banking sanctions](https://www.iranintl.com/en/202611234991)
-- Jerusalem Post: [Shadow banking sanctions](http://www.jpost.com/middle-east/iran-news/article-915890)
-- Khaleej Times: [UKMTO incident](https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-22-2026)
-- L'Orient Today: [Coalition talks](https://today.lorientlejour.com/article/1555314/netanyahu-and-eisenkot-parties-end-coalition-talks-without-agreement.html)
-- Middle East Online: [Qatar mediation](https://www.middle-east-online.com/en/qatar-seeks-revive-us-iran-talks-doha-warns-against-escalation)
-- New Arab: [Coalition talks](https://www.newarab.com/news/netanyahu-eisenkot-parties-end-talks-no-israel-govt-deal), [Qatar-Rubio meeting](https://www.newarab.com/news/qatar-pm-meet-rubio-washington-talks-us-iran-war)
-- RTE: [Trump delay](https://www.rte.ie/news/middle-east/2026/1119/1599925-us-iran/)
-- Times of Israel: [Bahrain attacks](https://www.timesofisrael.com/liveblog-november-21-2026/)
+- AA Anadolu Agency: [Houthi attack injuries](https://www.aa.com.tr/en/middle-east/11-injured-in-houthi-attack-on-riyadhs-financial-district-tower-saudi-civil-defense/4136093), [Hodeidah evacuation](https://www.aa.com.tr/en/middle-east/saudi-led-coalition-calls-on-civilians-to-evacuate-yemen-s-hodeidah-port/4136521)
+- ABC News: [Hormuz attacks highest level](https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id=138304456)
+- Al Jazeera: [Hormuz oil traffic down 40%](https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working), [Eisenkot-Netanyahu talks collapse](https://www.aljazeera.com/news/2026/11/22/netanyahus-likud-eisenkots-yashar-end-coalition-talks-without-deal), [Saudi coalition Hodeidah](https://aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines), [US sanctions](https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks)
+- Al-Monitor: [Eisenkot coalition](https://www.al-monitor.com/originals/2026/11/israels-eisenkot-clinches-first-coalition-agreement-bid-form-government)
+- ANI News: [Qatar diplomacy](https://aninews.in/news/world/middle-east/160qatar-urges-restraint-dialogue-amid-us-iran-tensions-says-diplomacy-only-viable-path20261125040239/)
+- Bloomberg: [Houthi attack injuries](https://www.bloomberg.com/news/articles/2026-11-24/riyadh-s-finance-hub-attacked-saudi-anti-houthi-coalition-says)
+- CFR Global Conflict Tracker: [Iran cyberattacks](https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and---iran/alerts)
+- CNBC: [Tanker mines, sanctions](https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html), [Tanker attacks](https://www.cnbc.com/amp/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html)
+- CNN: [Hormuz attacks record](https://edition.cnn.com/2026/11/22/middleeast/hormuz-attacks-highest-levels-iran-war-intl)
+- Democracy Now: [Hegseth resignation call](https://www.democracynow.org/2026/11/24/headlines/pete_hegseth_faces_call_to_resign_from_his_former_chief_of_staff)
+- Fortune: [Oil price](https://fortune.com/article/price-of-oil-11-24-2026/)
+- gCaptain: [Tanker attacks](https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-maritime-attacks-surge-worldwide/), [Cyberattacks](https://gcaptain.com/u-s-probes-suspected-iranian-cyberattacks-on-up-to-50-ships-wsj-reports/)
+- Iran International: [Qatar mediation](https://www.iranintl.com/en/202611244147), [Shadow banking sanctions](https://www.iranintl.com/en/202611234991)
+- Israel Hayom: [Cyberattacks](https://www.israelhayom.com/2026/11/24/us-iran-cyberattacks-tankers-probe)
+- Jerusalem Post: [Shadow banking sanctions](https://www.jpost.com/middle-east/iran-news/article-915890)
+- Just Security: [Daily briefing](https://www.justsecurity.org/165763/early-edition-november-24-2026/)
+- Military.com: [Hegseth resignation](https://www.military.com/pete-hegseth-former-chief-of-staff-calls-on-him-to-resign-citing-loss-any-aibility-to-be-effective)
+- New Arab: [Saudi coalition operation](https://www.newarab.com/news/saudi-coalition-launches-operation-houthis-vow-reprisals)
+- NST Malaysia: [Eisenkot coalition](https://www.nst.com.my/world/world/2026/11/1585175/israels-eisenkot-clinches-first-coalition-agreement-bid-form-government)
+- Oil Price API: [Brent price](https://www.oilpriceapi.com/oil-prices-today)
+- Prokerala: [Qatar diplomacy](https://prokerala.com/news/articles/a1840733.html)
+- Reuters (via multiple outlets): [Eisenkot coalition], [Sanctions], [Hodeidah]
+- TechCrunch: [Cyberattacks](https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/)
+- The National: [Hodeidah operation](https://www.thenationalnews.com/news/mena/2026/11/20/saudi-led-coalition-tells-civilians-to-leave-yemens-hodeidah-port-ahead-of-strikes/), [UN warning](https://www.thenationalnews.com/news/2026/11/20/un-yemen-saudi-houthis-hodeidah/)
 - Trading Economics: [Brent crude](https://tradingeconomics.com/commodity/brent-crude-oil)
-- US Treasury: [Operation Economic Outcast](https://home.treasury.gov/news/press-releases/sb0699/)
-- Washington Times: [Rubio-Qatar meeting](https://www.washingtontimes.com/news/2026/nov/23/marco-rubio-meets-qatari-prime-minister-amid-diplomatic-slowdown-iran/)
-- Windward/VIN News: [Tanker convoy analysis](https://vinnews.com/2026/11/22/iran-threatens-gulf-energy-facilities-as-it-prepares-to-challenge-us-naval-blockade/)
-- Ynet News: [Coalition talks](https://www.ynetnews.com/article/hj11rtyeyql)
+- US State Department: [Sanctions](https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-cripple-financial-networks-sustaining-the-iranian-regime)
+- Wall Street Journal (via Yahoo, Reuters): [Cyberattacks on tankers]
+- Yahoo News: [Hegseth resignation](https://www.yahoo.com/news/politics/articles/hegseth-former-chief-staff-calls-155503805.html), [Cyberattacks](https://www.yahoo.com/news/us/articles/us-suspects-iran-dozens-tanker-023047382.html)
